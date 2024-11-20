@@ -10,14 +10,18 @@ nav {
 }
 
 body {
-    background: black;
+    background: white;
     padding: 0;
     margin: 0;
 }
 
 /* Nav Bar */
-nav {
+header {
     display: block;
+}
+
+nav {
+    display: flex;
 }
 
 nav ul {
@@ -124,7 +128,7 @@ line-height: normal;
 
 /* Footer */
 footer {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -145,6 +149,10 @@ footer ul {
 .bluebutton {
     display: flex;
     flex-direction: row;
+<<<<<<< HEAD
+    color: white;
+    font-weight: bold;
+=======
 }
 
 body {
@@ -195,4 +203,5 @@ body {
     .sidenav a {
         font-size: 18px;
     }
+>>>>>>> 97fc4618034f25476d30f9b79a23283c6fd353cf
 }
