@@ -1,5 +1,6 @@
 /* Style */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
 
 :root {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -38,16 +39,16 @@ nav ul {
 
 /* Logo */
 .logo-column {
-display: flex;
-width: 120px;
-height: 118.003px;
-padding: 0.002px 0px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
+    display: flex;
+    width: 120px;
+    height: 118.003px;
+    padding: 0.002px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
-.headliner-h1{
+.headliner-h1 {
     width: 236px;
     height: 51px;
     flex-shrink: 0;
@@ -59,19 +60,19 @@ flex-shrink: 0;
     line-height: normal;
 }
 
-.headliner-text{
-width: 740px;
-height: 418px;
-flex-shrink: 1;
-color: #000;
-font-family: Inter;
-font-size: 31px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.headliner-text {
+    width: 740px;
+    height: 418px;
+    flex-shrink: 1;
+    color: #000;
+    font-family: Inter;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.trion-header-text{
+.trion-header-text {
     display: flex;
     width: 424px;
     height: 50px;
@@ -126,6 +127,14 @@ line-height: normal;
     display: flex;
 }
 
+/* TRION ORANGE CAR */
+.TRION-ORANGE{
+    width: 1366px;
+    height: 435px;
+    flex-shrink: 0;
+    background: url(Trion-Supercars-Images/homepage-images/Nemesis_Interior_render_test1.jpg) lightgray 50% / cover no-repeat;
+}
+
 /* Footer */
 footer {
     color: black;
@@ -149,10 +158,8 @@ footer ul {
 .bluebutton {
     display: flex;
     flex-direction: row;
-<<<<<<< HEAD
     color: white;
     font-weight: bold;
-=======
 }
 
 body {
@@ -203,5 +210,4 @@ body {
     .sidenav a {
         font-size: 18px;
     }
->>>>>>> 97fc4618034f25476d30f9b79a23283c6fd353cf
 }
