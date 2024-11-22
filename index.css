@@ -11,9 +11,11 @@ nav {
 }
 
 body {
-    background: white;
+    background: #3c3c3c;
     padding: 0;
     margin: 0;
+    font-family: "Forza", sans-serif;
+    color: white;
 }
 
 /* Nav Bar */
@@ -52,7 +54,6 @@ nav ul {
     width: 236px;
     height: 51px;
     flex-shrink: 0;
-    color: #000;
     font-family: "Racing Sans One";
     font-size: 48px;
     font-style: normal;
@@ -64,7 +65,6 @@ nav ul {
     width: 740px;
     height: 418px;
     flex-shrink: 1;
-    color: #000;
     font-family: Inter;
     font-size: 31px;
     font-style: normal;
@@ -106,8 +106,6 @@ nav ul {
 
 /* Content */
 .content1 {
-    background: white;
-    color: black;
     display: flex;
     flex-direction: column;
 }
@@ -128,16 +126,19 @@ nav ul {
 }
 
 /* TRION ORANGE CAR */
-.TRION-ORANGE{
-    width: 1366px;
-    height: 435px;
+.TRION-ORANGE {
+    display: flex;
+    object-fit: cover;
+    width: 80%;
+    height: 30em;
+    display: row;
+    justify-content: center;
+    background: lightgray 50% / cover no-repeat;
     flex-shrink: 0;
-    background: url(Trion-Supercars-Images/homepage-images/Nemesis_Interior_render_test1.jpg) lightgray 50% / cover no-repeat;
 }
 
 /* Footer */
 footer {
-    color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -162,39 +163,40 @@ footer ul {
     font-weight: bold;
 }
 
-body {
-    font-family: "Forza", sans-serif;
-}
+
 
 /* SIDEBAR MENU */
-
-.sidenav {
+.sidebar {
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-image: linear-gradient(-270deg, rgba(0, 0, 0, 0.80) 1.04%, rgba(0, 0, 0, 0.80) 21.44%, rgba(52, 52, 52, 0.80) 47.67%, rgba(114, 114, 114, 0.80) 70.01%, rgba(165, 165, 165, 0.80) 98.18%);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
+.sidebar a {
+    padding: 40px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
 }
 
-.sidenav a:hover {
-    color: #f1f1f1;
+.sidebar .list:hover {
+    color: #005FB2;
 }
 
-.sidenav .closebtn {
+.closebtn:hover {
+    color: #00294d;
+}
+
+.sidebar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -202,12 +204,16 @@ body {
     margin-left: 50px;
 }
 
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
 
-    .sidenav a {
-        font-size: 18px;
-    }
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
 }

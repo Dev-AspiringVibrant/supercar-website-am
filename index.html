@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en-US">
-        <title>Home | TRION</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="javascript" href="sidebar.js">
-    </head>
-    <body>
-        <div class="cover1">
+
+<head lang="en-US">
+    <title>Home | TRION</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="javascript" href="sidebar.js">
+</head>
+
+<body>
+    <div class="cover1">
         <header>
             <nav>
-                <div id="mySidenav" class="sidenav">
-                    <a href="sidebar.js" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">Models</a>
-                    <a href="#">Shop</a>
-                    <a href="#">Dealership</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Contact Us</a>
-                  </div>
-                  
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a class="list" href="#">Models</a>
+                    <a class="list" href="#">Location</a>
+                    <a class="list" href="#">Shop</a>
+                    <a class="list" href="#">About Us</a>
+                    <a class="list" href="#">Contact Us</a>
+                </div>
 
-                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-                  
-                  <script src="sidebar.js"></script>
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰ Menu</button>
+                </div>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "400px";
+                        document.getElementById("main").style.marginLeft = "400px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                    }
+                </script>
 
                 <a href="index.html">
                     <img src="Trion-Supercars-Images/logo/trion-favicon-new.png" alt="TRION logo" class="logo-column">
@@ -32,56 +45,62 @@
                 </a>
             </nav>
         </header>
-        </div>
-         <section class="content1">
-            <div class="front">
+    </div>
+    <section class="content1">
+        <div class="front">
             <img src="/Trion-Supercars-Images/gallery-images/front.png" alt="TRION car facing front.">
             <aside>
                 <h1 class="headliner-h1">Headliner</h1>
                 <p class="headliner-text">Lorem ipsum odor amet, consectetuer adipiscing elit.
-                Sodales euismod adipiscing at euismod iaculis potenti
-                turpis. Tristique himenaeos ut et torquent ut odio
-                inceptos. Mi magna elit placerat maximus at semper.
-                Morbi platea blandit rutrum nostra sodales duis amet.
-                Ullamcorper nostra feugiat; id varius nunc maximus
-                malesuada natoque. Nunc placerat magna nullam vestibulum;
-                bibendum interdum aptent praesent. Torquent cras interdum
-                cursus tortor habitant ipsum. Id fusce himenaeos aenean
-                cursus eros platea hendrerit lectus praesent.</p>
+                    Sodales euismod adipiscing at euismod iaculis potenti
+                    turpis. Tristique himenaeos ut et torquent ut odio
+                    inceptos. Mi magna elit placerat maximus at semper.
+                    Morbi platea blandit rutrum nostra sodales duis amet.
+                    Ullamcorper nostra feugiat; id varius nunc maximus
+                    malesuada natoque. Nunc placerat magna nullam vestibulum;
+                    bibendum interdum aptent praesent. Torquent cras interdum
+                    cursus tortor habitant ipsum. Id fusce himenaeos aenean
+                    cursus eros platea hendrerit lectus praesent.</p>
             </aside>
-            </div>
-            <br>
-            <br>
-            <img src="/Trion-Supercars-Images/homepage-images/Nemesis_Interior_render_test1.jpg" class="TRION-ORANGE" alt="Orange TRION Car">
-         </section>
-         <footer>
-            <article>
-                <ul>
-                    <li><h3>Navigation</h3></li>
-                    <li>Models</li>
-                    <li>Dealership</li>
-                    <li>Shop</li>
-                    <li>About Us</li>
-                </ul>
-            </article>
-            <article>
-                <ul>
-                    <li><h3>Social</h3></li>
-                    <li>YouTube</li>
-                    <li>Instagram</li>
-                    <li>Facebook</li>
-                    <li>X</li>
-                </ul>
-            </article>
-            <article>
-                <h3>Subscribe</h3>
-                <div class="bluebutton">
+        </div>
+        <br>
+        <br>
+        <img src="/Trion-Supercars-Images/homepage-images/Nemesis_Interior_render_test1.jpg" class="TRION-ORANGE"
+            alt="Orange TRION Car">
+    </section>
+    <footer>
+        <article>
+            <ul>
+                <li>
+                    <h3>Navigation</h3>
+                </li>
+                <li>Models</li>
+                <li>Dealership</li>
+                <li>Shop</li>
+                <li>About Us</li>
+            </ul>
+        </article>
+        <article>
+            <ul>
+                <li>
+                    <h3>Social</h3>
+                </li>
+                <li>YouTube</li>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>X</li>
+            </ul>
+        </article>
+        <article>
+            <h3>Subscribe</h3>
+            <div class="bluebutton">
                 <input type="text" placeholder="Enter Email">
                 <div class="bluebox">
-                <aside>Submit</aside>
+                    <aside>Submit</aside>
                 </div>
-                </div>
-            </article>
-         </footer>
-    </body>
+            </div>
+        </article>
+    </footer>
+</body>
+
 </html>
