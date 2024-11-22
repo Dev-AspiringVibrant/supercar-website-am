@@ -155,6 +155,7 @@ footer ul {
     height: fit-content;
 
 }
+
 .bluebox:hover {
     border: darkblue;
     background-color: darkblue;
@@ -219,9 +220,8 @@ footer ul {
     border: none;
 }
 
-    .sidenav a {
-        font-size: 18px;
-    }
+.sidenav a {
+    font-size: 18px;
 }
 
 /* Misc. */

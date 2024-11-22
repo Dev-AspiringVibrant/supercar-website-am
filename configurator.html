@@ -9,19 +9,30 @@
         <div class="cover1">
         <header>
             <nav>
-                <div id="mySidenav" class="sidenav">
-                    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="#">Models</a>
-                    <a href="#">Shop</a>
-                    <a href="#">Dealership</a>
-                    <a href="#">About Us</a>
-                    <a href="#">Contact Us</a>
-                  </div>
-                  
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a class="list" href="#">Models</a>
+                    <a class="list" href="#">Location</a>
+                    <a class="list" href="#">Shop</a>
+                    <a class="list" href="#">About Us</a>
+                    <a class="list" href="#">Contact Us</a>
+                </div>
 
-                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
-                  
-                  <script src="sidebar.js"></script>
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰ Menu</button>
+                </div>
+
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "400px";
+                        document.getElementById("main").style.marginLeft = "400px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                    }
+                </script>
 
                 <a href="index.html">
                     <img src="Trion-Supercars-Images/logo/trion-favicon-new.png" alt="TRION logo" class="logo-column">
