@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Configurator</title>
+    <head lang="en-US">
+        <title>Home | TRION</title>
         <link rel="stylesheet" href="style2.css">
+        <link rel="javascript" href="sidebar.js">
     </head>
     <body>
+        <div class="cover1">
         <header>
             <nav>
-                <ul>
-                    <li>Menu</li>
-                    <li>TRION</li>
-                </ul>
+                <div id="mySidenav" class="sidenav">
+                    <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Models</a>
+                    <a href="#">Shop</a>
+                    <a href="#">Dealership</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact Us</a>
+                  </div>
+                  
+
+                  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+                  
+                  <script src="sidebar.js"></script>
+
+                <a href="index.html">
+                    <img src="Trion-Supercars-Images/logo/trion-favicon-new.png" alt="TRION logo" class="logo-column">
+                    <aside>TRION</aside>
+                </a>
             </nav>
         </header>
-        <section id="preview">
-            <div>
-                Configure
-            </div>
-            <div>
-                Interior
+        </div>
+         <footer>
+            <article>
                 <ul>
-                    <li>Bucket Seats</li>
-                    <li>Star Roof</li>
-                    <li>Seat Color</li>
-                    <li>Seat Trim</li>
+                    <li><h3>Navigation</h3></li>
+                    <li>Models</li>
+                    <li>Dealership</li>
+                    <li>Shop</li>
+                    <li>About Us</li>
                 </ul>
-            </div>
-            <div>
-                Exterior
+            </article>
+            <article>
                 <ul>
-                    <li>Paint</li>
-                    <li>Rims</li>
-                    <li>Brake</li>
-                    <li>360</li>
+                    <li><h3>Social</h3></li>
+                    <li>YouTube</li>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>X</li>
                 </ul>
-            </div>
-        </section>
+            </article>
+            <article>
+                <h3>Subscribe</h3>
+                <div class="bluebutton">
+                <input type="text" placeholder="Enter Email">
+                <div class="bluebox">
+                <aside>Submit</aside>
+                </div>
+                </div>
+            </article>
+         </footer>
     </body>
 </html>

@@ -154,6 +154,12 @@ footer ul {
     height: fit-content;
 
 }
+.bluebox:hover {
+    border: darkblue;
+    background-color: darkblue;
+    width: fit-content;
+    height: fit-content;
+}
 
 .bluebutton {
     display: flex;
