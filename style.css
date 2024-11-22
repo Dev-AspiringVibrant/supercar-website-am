@@ -92,8 +92,8 @@ nav ul {
     width: 15%;
 }
 
-.pfp img {
-    width: 20%;
+.pfp {
+    scale: 30%;
 }
 
 /* Cover */
@@ -217,3 +217,5 @@ body {
         font-size: 18px;
     }
 }
+
+/* Misc. */
