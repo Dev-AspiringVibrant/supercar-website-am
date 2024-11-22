@@ -92,8 +92,8 @@ nav ul {
     width: 15%;
 }
 
-.pfp img {
-    width: 20%;
+.pfp {
+    scale: 30%;
 }
 
 /* Cover */
@@ -219,7 +219,9 @@ footer ul {
     border: none;
 }
 
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
+    .sidenav a {
+        font-size: 18px;
+    }
 }
+
+/* Misc. */
