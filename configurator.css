@@ -99,6 +99,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+.headliner-h1 {
+    width: 236px;
+    height: 51px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Racing Sans One";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     width: 111px;
     height: 64px;
 }
@@ -307,7 +322,8 @@ body{
 
 .sidebar {
     height: 100%;
-    width: 0;
+    width: 0%;
+
     position: fixed;
     z-index: 1;
     top: 0;
@@ -344,7 +360,7 @@ body{
 }
 
 .openbtn {
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
     background-color: transparent;
     color: white;
@@ -354,4 +370,10 @@ body{
 
 .sidenav a {
     font-size: 18px;
+}
+
+/* Misc. */
+a {
+    display: flex;
+    flex-direction: row;
 }
