@@ -18,6 +18,12 @@ main {
     width: 100%;
     height: 100vh;
 
+    background: url(./Trion-Supercars-Images/instagram/trionnemesissupercars.jpg);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,14 +31,6 @@ main {
     color: white;
 
     position: relative;
-}
-
-.cover {
-    background: url(./Trion-Supercars-Images/instagram/trionnemesissupercars.jpg);
-    background-size: cover;
-    background-position: center;
-
-    position: absolute;
 }
 
 header {
