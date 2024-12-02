@@ -93,14 +93,20 @@ nav ul {
 }
 
 .pfp {
+
+padding-left: 10%;
+padding-right:120%;
     scale: 30%;
 }
+
 
 /* Cover */
 .cover1 {
     background-image: url(/Trion-Supercars-Images/instagram/trionnemesissupercars.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 40%;
+    background-size: cover;
     height: 1000px;
 }
 
@@ -212,7 +218,7 @@ footer ul {
 }
 
 .openbtn {
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
     background-color: transparent;
     color: white;
@@ -224,4 +230,6 @@ footer ul {
         font-size: 18px;
     }
 
+   
 /* Misc. */
+
