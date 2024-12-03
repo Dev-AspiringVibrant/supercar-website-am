@@ -1,0 +1,310 @@
+.hero-image-icon {
+    position: absolute;
+    top: -0.04px;
+    left: 0px;
+    width: 1440px;
+    height: 1024.1px;
+}
+.trionnemesissupercars-icon {
+    position: absolute;
+    top: 0px;
+    left: -2px;
+    width: 1444px;
+    height: 1112px;
+    object-fit: cover;
+}
+.button-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 242px;
+    background-color: #fff;
+}
+.button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 247px;
+    height: 79px;
+}
+.nemesis {
+    position: absolute;
+    top: 22px;
+    left: calc(50% - 85.5px);
+    display: inline-block;
+    width: 170px;
+    height: 35px;
+}
+.nemesis-btn {
+    position: absolute;
+    top: 882px;
+    left: 627px;
+    width: 247px;
+    height: 79px;
+    cursor: pointer;
+    font-size: 31px;
+    color: #000;
+    font-family: Forza;
+}
+.logo-icon {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 118px;
+    object-fit: cover;
+}
+.home-page-child {
+    position: absolute;
+    top: -3349px;
+    left: 56px;
+    background-color: #2f2d2d;
+    width: 1374px;
+    height: 1225px;
+}
+.home-page-item {
+    position: absolute;
+    top: 1188px;
+    left: 50px;
+    background-color: #d9d9d9;
+    width: 656px;
+    height: 517px;
+}
+.nemesis-interior-render-test1-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1366px;
+    height: 435px;
+    object-fit: cover;
+}
+.frame-child {
+    position: absolute;
+    top: 104px;
+    left: 1005px;
+    background-color: rgba(60, 60, 60, 0.88);
+    border: 3px solid #508cbf;
+    box-sizing: border-box;
+    width: 309px;
+    height: 261px;
+}
+.top-speed {
+    position: absolute;
+    top: 127px;
+    left: 1026px;
+}
+.to-60 {
+    position: absolute;
+    top: 206px;
+    left: 1026px;
+}
+.horsepower {
+    position: absolute;
+    top: 285px;
+    left: 1026px;
+}
+.mph {
+    position: absolute;
+    top: 136px;
+    left: 1185px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Forza;
+    display: inline-block;
+    width: 119px;
+    height: 21px;
+}
+.seconds {
+    position: absolute;
+    top: 215px;
+    left: 1147px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Forza;
+    display: inline-block;
+    width: 157px;
+    height: 21px;
+}
+.div {
+    position: absolute;
+    top: 294px;
+    left: 1225px;
+    font-size: 25px;
+    font-weight: 300;
+    font-family: Forza;
+    display: inline-block;
+    width: 157px;
+    height: 21px;
+}
+.nemesis-interior-render-test1-parent {
+    position: absolute;
+    top: 1785px;
+    left: 41px;
+    background-color: #e9e7e7;
+    width: 1366px;
+    height: 435px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 31px;
+    font-family: 'Racing Sans One';
+}
+.vector-icon {
+    position: absolute;
+    height: 2.82%;
+    width: 4.93%;
+    top: 0.79%;
+    right: 2.15%;
+    bottom: 96.39%;
+    left: 92.92%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    cursor: pointer;
+}
+.home-page-inner {
+    position: absolute;
+    top: 1188px;
+    left: 50px;
+    width: 656px;
+    height: 517px;
+    object-fit: contain;
+}
+.line-icon {
+    position: absolute;
+    top: 1188.01px;
+    left: 49.99px;
+    width: 656px;
+    height: 517px;
+    object-fit: contain;
+}
+.vector-icon1 {
+    position: absolute;
+    height: 50%;
+    width: 75.05%;
+    top: 25%;
+    right: 12.45%;
+    bottom: 25%;
+    left: 12.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.icsharp-menu {
+    position: absolute;
+    top: 0px;
+    left: 7px;
+    width: 95px;
+    height: 79px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.trion-supercars {
+    position: absolute;
+    top: 118px;
+    left: calc(50% - 212px);
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Forza;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 424px;
+    height: 50px;
+}
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 1265px;
+    left: 750px;
+    font-size: 31px;
+    text-align: left;
+    display: inline-block;
+    width: 658px;
+    height: 418px;
+}
+.headliner {
+    position: absolute;
+    top: 1184px;
+    left: 750px;
+    font-size: 48px;
+    font-family: 'Racing Sans One';
+    text-align: left;
+    display: inline-block;
+    width: 236px;
+    height: 51px;
+}
+.front-icon {
+    position: absolute;
+    top: 1188px;
+    left: 50px;
+    width: 656px;
+    height: 517px;
+    object-fit: cover;
+}
+.models {
+    margin: 0;
+}
+.models-dealership-shop-container {
+    position: absolute;
+    top: 2299px;
+    left: 153px;
+}
+.subscribe {
+    position: absolute;
+    top: 2300px;
+    left: 1114px;
+}
+.rectangle-div {
+    position: absolute;
+    top: 2388px;
+    left: 1087px;
+    background-color: #d9d9d9;
+    width: 224px;
+    height: 42px;
+}
+.home-page-child1 {
+    position: absolute;
+    top: 2385px;
+    left: 1311px;
+    background-color: #000;
+    width: 51px;
+    height: 48px;
+}
+.social {
+    position: absolute;
+    top: 2299px;
+    left: 665px;
+}
+.youtube-instagram-facebook-container {
+    position: absolute;
+    top: 2335px;
+    left: 635px;
+}
+.menu {
+    position: absolute;
+    top: 8px;
+    left: 102px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Forza;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 111px;
+    height: 64px;
+}
+.home-page {
+    width: 100%;
+    position: relative;
+    background-color: #3c3c3c;
+    height: 2522px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    font-family: Inter;
+}
+
