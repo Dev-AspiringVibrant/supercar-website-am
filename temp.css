@@ -109,17 +109,22 @@ section {
 }
 
 .orangecover {
-    display: flex;
-
     position: relative;
 }
 
+.orangecar {
+    width: calc(100% - 5em);
+    height: calc(100% - 5em);
+}
+
 .bluebox {
-    border: 1px solid blue;
+    border: 0.2em solid #508CBF;
+    padding: 10em;
+    background-color: rgba(60, 60, 60, 0.6);
 
     position: absolute;
-    bottom: 1em;
-    right: 1em;
+    bottom: 10em;
+    right: 10em;
 
     z-index: 1;
 }
@@ -132,6 +137,8 @@ footer {
     display: flex;
     justify-content: space-around;
 
+    width: 100%;
+
     color: white;
 }
 
@@ -141,16 +148,37 @@ footer div, footer ul {
     align-items: center;
     flex-direction: column;
 
+    padding: 0;
     margin: 0;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+}
+
+.subbox {
+    background-color: white;
+
+    width: 220px;
+    height: 40px;
+}
+
+.subboxclick {
+    cursor: pointer;
+
+    background-color: black;
+
+    width: 40px;
+    height: 40px;
 }
 
 /* Extra */
 
 .spacing {
-    width: 100%;
+    width: fit-content;
 
     margin: 3em;
-    margin-left: 10em;
 }
 
 .description {
