@@ -63,6 +63,33 @@ ul {
     list-style-type: none;
 
     width: 100%;
+    padding: 0;
+    margin: 1em 2em;
+}
+
+.trion {
+    color: white;
+    
+    font-size: xx-large;
+
+    margin: 0;
+}
+
+.navlink {
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+
+    margin-right: 3em;
 }
 
 .button {
@@ -83,6 +110,8 @@ ul {
     position: absolute;
 
     bottom: 10em;
+
+    transform: translateX(-10em);
 }
 
 .button p {
@@ -106,20 +135,21 @@ section {
 .row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .orangecover {
     position: relative;
+
+    margin-top: 3em;
 }
 
 .orangecar {
-    width: calc(100% - 5em);
-    height: calc(100% - 5em);
+    width: 100%;
 }
 
 .bluebox {
     border: 0.2em solid #508CBF;
-    padding: 10em;
     background-color: rgba(60, 60, 60, 0.6);
 
     position: absolute;
@@ -150,6 +180,7 @@ footer div, footer ul {
 
     padding: 0;
     margin: 0;
+    margin-bottom: 1em;
 }
 
 .sub {
@@ -188,6 +219,16 @@ footer div, footer ul {
 
 .blueboxspacing {
     margin: 2em;
+}
+
+.bluebox div {
+    font-size: 48px;
+    padding: 1em;
+}
+
+.beforecolon {
+    font-weight: bold;
+    font-style: italic;
 }
 
 /* SIDEBAR MENU */
