@@ -92,12 +92,15 @@ nav ul {
 }
 
 .pfp {
-    width: 100%;
+    width: 200px;
     position: relative;
-    max-width: 100%;
+    max-width: 200px;
     overflow: hidden;
-    height: 71px;
+    position: absolute;
     cursor: pointer;
+    float: right;
+    align-self: flex-end;
+    right: 0%;
 }
 
 .trion-supercars {
