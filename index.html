@@ -24,11 +24,35 @@
 
                     <ul>
 
-                        <div>
+                        <div id="mySidebar" class="sidebar">
 
-                            <p class="trion">☰ Menu</p>
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                            <a class="list" href="#">Models</a>
+                            <a class="list" href="#">Location</a>
+                            <a class="list" href="#">Shop</a>
+                            <a class="list" href="#">About Us</a>
+                            <a class="list" href="#">Contact Us</a>
 
                         </div>
+
+                        <div id="main">
+
+                            <button class="openbtn" onclick="openNav()">☰ Menu</button>
+    
+                        </div>
+                        <script>
+                            function openNav() {
+                                document.getElementById("mySidebar").style.width = "400px";
+                                document.getElementById("main").style.marginLeft = "400px";
+                                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                            }
+
+                            function closeNav() {
+                                document.getElementById("mySidebar").style.width = "0";
+                                document.getElementById("main").style.marginLeft = "0";
+
+                            }
+                        </script>
 
                         <div>
 
@@ -132,10 +156,19 @@
         
                         <ul>
         
-                            <li>YouTube Icon</li>
-                            <li>Instagram Icon</li>
-                            <li>Facebook Icon</li>
-                            <li>X Icon</li>
+<a >
+    <img class="footerimg" src="Icons/yt.svg">
+</a>
+<a >
+    <img class="footerimg" src="Icons/ig.svg">
+</a>
+<a >
+    <img class="footerimg" src="Icons/fb.svg">
+</a>
+<a >
+    <img class="footerimg" src="Icons/x.svg">
+</a>
+
         
                         </ul>
         
