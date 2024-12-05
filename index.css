@@ -15,26 +15,20 @@ body {
 /* Cover */
 
 main {
-
     position: absolute;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     color: white;
-
     position: relative;
 }
 
 .cover {
     display: flex;
     justify-content: center;
-
     background: url(./Trion-Supercars-Images/instagram/trionnemesissupercars.jpg);
     background-size: cover;
     background-position: center;
-
     width: 100%;
     height: 100vh;
 }
@@ -42,13 +36,9 @@ main {
 header {
     width: 100%;
     height: fit-content;
-
     margin: 0em 2em;
-
     position: absolute;
-
     top: 0;
-
     color: white;
 }
 
@@ -59,9 +49,7 @@ nav {
 ul {
     display: flex;
     justify-content: space-between;
-
     list-style-type: none;
-
     width: 100%;
     padding: 0;
     margin: 1em 2em;
@@ -69,15 +57,12 @@ ul {
 
 .trion {
     color: white;
-    
     font-size: xx-large;
-
     margin: 0;
 }
 
 .navlink {
     text-decoration: none;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -86,9 +71,7 @@ ul {
 .profile {
     width: 70px;
     height: 70px;
-
     display: flex;
-
     margin-right: 3em;
 }
 
@@ -96,21 +79,15 @@ ul {
     background-color: white;
     padding: 2em;
     border-radius: 5em;
-
     color: black;
     font-weight: bold;
-
     width: 15em;
     height: 1em;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: absolute;
-
     bottom: 10em;
-
     transform: translateX(-10em);
 }
 
@@ -123,12 +100,10 @@ ul {
 section {
     background: #3c3c3c;
     color: white;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     width: 100%;
 }
 
@@ -140,7 +115,6 @@ section {
 
 .orangecover {
     position: relative;
-
     margin-top: 3em;
 }
 
@@ -151,11 +125,9 @@ section {
 .bluebox {
     border: 0.2em solid #508CBF;
     background-color: rgba(60, 60, 60, 0.6);
-
     position: absolute;
     bottom: 10em;
     right: 10em;
-
     z-index: 1;
 }
 
@@ -163,21 +135,18 @@ section {
 
 footer {
     background: #3c3c3c;
-
     display: flex;
     justify-content: space-around;
-
     width: 100%;
-
     color: white;
 }
 
-footer div, footer ul {
+footer div,
+footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
     padding: 0;
     margin: 0;
     margin-bottom: 1em;
@@ -190,16 +159,13 @@ footer div, footer ul {
 
 .subbox {
     background-color: white;
-
     width: 220px;
     height: 40px;
 }
 
 .subboxclick {
     cursor: pointer;
-
     background-color: black;
-
     width: 40px;
     height: 40px;
 }
@@ -208,7 +174,6 @@ footer div, footer ul {
 
 .spacing {
     width: fit-content;
-
     margin: 3em;
 }
 
@@ -230,9 +195,11 @@ footer div, footer ul {
     font-weight: 300;
     font-family: Racing Sans One;
 }
-div > p{
+
+div>p {
     font-family: Forza;
 }
+
 /* SIDEBAR MENU */
 .sidebar {
     height: 100%;
@@ -281,8 +248,6 @@ div > p{
     border: none;
 }
 
-    .sidenav a {
-        font-size: 18px;
-    }
-
-   
+.sidenav a {
+    font-size: 18px;
+}
