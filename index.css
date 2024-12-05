@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
 html {
     margin: 0;
 }
@@ -77,7 +79,7 @@ ul {
 
 .navlink {
     text-decoration: none;
-
+    font-family: forza;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,6 +118,7 @@ ul {
 
 .button p {
     margin: 0;
+    font-family: forza;
 }
 
 /* Section */
@@ -163,12 +166,10 @@ section {
 
 footer {
     background: #3c3c3c;
-
     display: flex;
     justify-content: space-around;
-
     width: 100%;
-
+    font-family: Forza;
     color: white;
 }
 
@@ -216,7 +217,15 @@ footer div, footer ul {
     margin: 0;
     padding: 3em;
 }
-
+.description > h2{
+    font-family: racing sans one;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.description > p{
+    font-family: Inter;
+    font-size: 1rem;
+}
 .blueboxspacing {
     margin: 2em;
 }
@@ -227,12 +236,15 @@ footer div, footer ul {
 }
 
 .beforecolon {
-    font-weight: 300;
     font-family: Racing Sans One;
+    font-weight: 400;
 }
-div > p{
+
+p{
     font-family: Forza;
+
 }
+
 /* SIDEBAR MENU */
 .sidebar {
     height: 100%;
@@ -254,6 +266,7 @@ div > p{
     color: #ffffff;
     display: block;
     transition: 0.3s;
+    font-family: forza;
 }
 
 .sidebar .list:hover {
