@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
-
 html {
     margin: 0;
 }
@@ -72,7 +69,7 @@ ul {
 
 .trion {
     color: white;
-    font-family: Forza;
+    
     font-size: xx-large;
 
     margin: 0;
@@ -99,10 +96,9 @@ ul {
     background-color: white;
     padding: 2em;
     border-radius: 5em;
-    font-family: forza;
+
     color: black;
     font-weight: bold;
-    font-size: larger;
 
     width: 15em;
     height: 1em;
@@ -115,7 +111,7 @@ ul {
 
     bottom: 10em;
 
-    transform: translateX(-7em);
+    transform: translateX(-10em);
 }
 
 .button p {
@@ -123,8 +119,6 @@ ul {
 }
 
 /* Section */
-
-
 
 section {
     background: #3c3c3c;
@@ -178,13 +172,12 @@ footer {
     color: white;
 }
 
-footer div,
-footer ul {
+footer div, footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: Forza;
+
     padding: 0;
     margin: 0;
     margin-bottom: 1em;
@@ -223,16 +216,7 @@ footer ul {
     margin: 0;
     padding: 3em;
 }
-.description > h2{
-    font-family: Racing Sans One;
-    font-size:3em;
-    font-weight: 500;
-}
-.description > p{
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 1em;
-}
+
 .blueboxspacing {
     margin: 2em;
 }
@@ -261,7 +245,6 @@ div > p{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-    font-family: Forza;
 }
 
 .sidebar a {
@@ -298,11 +281,8 @@ div > p{
     border: none;
 }
 
-.sidenav a {
-    font-size: 18px;
-}
+    .sidenav a {
+        font-size: 18px;
+    }
 
-@media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
-  }
+   
