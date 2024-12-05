@@ -227,10 +227,12 @@ footer div, footer ul {
 }
 
 .beforecolon {
-    font-weight: bold;
-    font-style: italic;
+    font-weight: 300;
+    font-family: Racing Sans One;
 }
-
+div > p{
+    font-family: Forza;
+}
 /* SIDEBAR MENU */
 .sidebar {
     height: 100%;
