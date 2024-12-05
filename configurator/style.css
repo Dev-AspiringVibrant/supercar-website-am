@@ -21,7 +21,7 @@ main {
 
     position: absolute;
 
-    color: green;
+    color: white;
 }
 
 .cover {
@@ -38,31 +38,73 @@ main {
 .menu {
     top: 0;
     left: 0;
+    padding-left: 1em;
+
+    height: fit-content;
 }
 
 .name {
     top: 0;
-    padding-left: 10%;
+
+    display: flex;
+    align-items: center;
+
+    height: fit-content;
 }
+
+.name p {
+    font-size: 48px;
+}
+
+/* Right Box */
 
 .options {
     right: 0;
     display: flex;
     flex-direction: column;
-justify-content: flex-start;
-align-items: center;
+    justify-content: flex-start;
+    align-items: center;
     width: 20em;
     height: 100%;
-color: aliceblue;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* Configure other colors */
+.bottomspace {
+    margin-bottom: 12em;
+}
+
+.indent {
+    margin-left: 10px;
+}
+
+.text {
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+
 .inside {
     color: black;
-    background-color: aliceblue;
+    background-color: white;
+
     width: 100%;
+
     display:flex;
     flex-direction: row;
     justify-content: center;
+
+    box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 10px;
+}
+
+.confirm {
+    background-color: #005FB2;
+    padding: 1em;
+    border-radius: 10em;
+    width: 70%;
+    height: 3em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
 }
