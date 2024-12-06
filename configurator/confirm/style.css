@@ -1,0 +1,49 @@
+html {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Don't Edit Above */
+
+/* Top Section */
+
+.preview {
+    background: url(../img/blueNemesis.png);
+    background-size: cover;
+    background-position: center;
+
+    width: 100%;
+    height: 50vh;
+
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    left: 1%;
+    top: 4%;
+
+    display: flex;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    top: 4%;
+}
+
+/* Bottom Section */
+
+.info {
+    width: 100%;
+    height: 50vh;
+
+    background-color: #3C3C3C;
+}
