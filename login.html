@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRION | Log-In</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="cover">
+            
+        <header>
+
+            <nav>
+
+                <ul>
+
+                    <div id="mySidebar" class="sidebar">
+
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a class="list" href="#">Models</a>
+                        <a class="list" href="#">Location</a>
+                        <a class="list" href="/shop/index.html">Shop</a>
+                        <a class="list" href="#">About Us</a>
+                        <a class="list" href="#">Contact Us</a>
+
+                    </div>
+
+                    <div id="main">
+
+                        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+
+                    </div>
+                    <script>
+                        function openNav() {
+                            document.getElementById("mySidebar").style.width = "400px";
+                            document.getElementById("main").style.marginLeft = "400px";
+                            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                        }
+
+                        function closeNav() {
+                            document.getElementById("mySidebar").style.width = "0";
+                            document.getElementById("main").style.marginLeft = "0";
+
+                        }
+                    </script>
+
+                    <div>
+
+                        <a href="./" class="navlink">
+
+                            <img src="Trion-Supercars-Images/logo/Copy of trion-favicon-new.png" width="100" height="100">
+
+                        </a>
+
+                    </div>
+
+                </ul>
+                
+            </nav>
+
+        </header>
+
+    </div>
+    <h1>Trion Login</h1>
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+            
+          <button type="submit" class="signupbtn">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+    
+        <div class="container" style="background-color:#005FB2 width: 50%;">
+          <span class="psw">Forgot <a href="#" style="color: dodgerblue;">password?</a></span>
+        </div>
+      </form>
+    </div>
+    
+    <h1 class="tionlogin-text">Trion Log-In</h1>
+    <form action="action_page.php" style="border:1px solid #ccc">
+        <div class="container">
+          <h1>Sign Up</h1>
+
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <label for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+          </label>
+      
+          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue; font-family: Inter;">Terms & Privacy</a>.</p>
+      
+          <div class="clearfix">
+            <button type="submit" class="signupbtn">Sign Up</button>
+
+          </div>
+        </div>
+      </form>
+
+      <div class="sign-google">
+        <div class="sign-apple-child">
+        </div>
+        <img class="bigoogle-icon" alt="" src="icons/google.svg">
+        <div class="sign-in-with1">Sign In with Google</div>
+        </div>
+        <div class="sign-microsof">
+        <div class="sign-apple-child">
+        </div>
+        <div class="sign-in-with2">Sign In with Microsoft</div>
+        <img class="mdimicrosoft-icon" alt="" src="Icons/microsoft.svg">
+        </div>
+        <div class="sign-facebook">
+        <div class="sign-apple-child">
+        </div>
+        <div class="sign-in-with3">Sign In with Facebook</div>
+        <img class="icround-facebook-icon" alt="" src="Icons/facebook.svg">
+        </div>
+        <div class="icsharp-menu1" id="icsharpMenuContainer1">
+        </div>
+      <button type="button" class="cancelbtn" href="index.html">Cancel</button>
+</body>
+</html>
