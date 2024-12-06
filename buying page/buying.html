@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <title>TRION</title>
+
+        <link rel="stylesheet" href="./buying.css">
+        <link rel="javascript" href="sidebar.js">
+
+    </head>
+
+    <body>
+
+        <div class="cover">
+            
+            <header>
+
+                <nav>
+
+                    <ul>
+
+                        <div id="mySidebar" class="sidebar">
+
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                            <a class="list" href="#">Models</a>
+                            <a class="list" href="#">Location</a>
+                            <a class="list" href="#">Shop</a>
+                            <a class="list" href="#">About Us</a>
+                            <a class="list" href="#">Contact Us</a>
+
+                        </div>
+
+                        <div id="main">
+
+                            <button class="openbtn" onclick="openNav()">☰ Menu</button>
+    
+                        </div>
+                        <script>
+                            function openNav() {
+                                document.getElementById("mySidebar").style.width = "400px";
+                                document.getElementById("main").style.marginLeft = "400px";
+                                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                            }
+
+                            function closeNav() {
+                                document.getElementById("mySidebar").style.width = "0";
+                                document.getElementById("main").style.marginLeft = "0";
+
+                            }
+                        </script>
+
+                        <div>
+                            <a href="./" class="navlink">
+
+                                <img src="img/trion-favicon-new.png" width="100" height="100">
+
+                                <p class="trion">Trion</p>
+
+                            </a>
+
+                        </div>
