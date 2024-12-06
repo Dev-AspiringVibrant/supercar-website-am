@@ -123,3 +123,28 @@ main {
 
     font-size: 18px;
 }
+
+.gradboxspacing {
+    display: flex;
+}
+
+.gradbox {
+    display: block;
+    background: linear-gradient(gray, black);
+    border: white 1px solid;
+
+    width: 4em;
+    height: 29em;
+
+    margin: 0 7px;
+    margin-bottom: 10em;
+    margin-top: 3em;
+}
+
+#gradbox2 {
+    background: linear-gradient(black, gray) !important;
+}
+
+#backarrow {
+    margin-bottom: 3em;
+}
