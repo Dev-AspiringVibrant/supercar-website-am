@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="cars.css" rel="stylesheet"> 
+    <title>TRION | Car Selector</title>
+</head>
+
+<body>
+    <header>
+        <div class="cover">
+            <header>
+                <nav>
+                    <ul>
+                        <div id="mySidebar" class="sidebar">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                            <a class="list" href="#">Models</a>
+                            <a class="list" href="#">Location</a>
+                            <a class="list" href="/shop/index.html">Shop</a>
+                            <a class="list" href="#">About Us</a>
+                            <a class="list" href="#">Contact Us</a>
+
+                        </div>
+                        <div id="main">
+                            <button class="openbtn" onclick="openNav()">☰ Menu</button>
+                        </div>
+                        <script>
+                            function openNav() {
+                                document.getElementById("mySidebar").style.width = "400px";
+                                document.getElementById("main").style.marginLeft = "400px";
+                            }
+
+                            function closeNav() {
+                                document.getElementById("mySidebar").style.width = "0";
+                                document.getElementById("main").style.marginLeft = "0";
+
+                            }
+                        </script>
+                        <div>
+                            <a href="./" class="navlink">
+                                <img src="Trion-Supercars-Images/logo/Copy of trion-favicon-new.png" width="100"
+                                    height="100">
+                                <p class="trion">Trion Supercars</p>
+                            </a>
+                        </div>
+                    </ul>
+                </nav>
+            </header>
+</body>
+
+</html>
