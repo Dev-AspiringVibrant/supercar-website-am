@@ -16,13 +16,46 @@
 
                 <ul>
                     
+                    <div id="mySidebar" class="sidebar">
+
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a class="list" href="/index.html">Models</a>
+                        <a class="list" href="#">Location</a>
+                        <a class="list" href="/shop/index.html">Shop</a>
+                        <a class="list" href="#">About Us</a>
+                        <a class="list" href="#">Contact Us</a>
+
+                    </div>
+
+                    <div id="main">
+
+                        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+
+                    </div>
+                    <script>
+                        function openNav() {
+                            document.getElementById("mySidebar").style.width = "400px";
+                            document.getElementById("main").style.marginLeft = "400px";
+                            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                        }
+
+                        function closeNav() {
+                            document.getElementById("mySidebar").style.width = "0";
+                            document.getElementById("main").style.marginLeft = "0";
+
+                        }
+                    </script>
                     
-                        <li>Menu</li>
+                  
+                       
                         
                         <img src="logo/trion-favicon-new.png" width="100" height="100">
                         
+              <h3>Merchandise</h3>
+                    
+                   
                         
-                        <img src="logo/shopping_cart-removebg-preview.png" height="65" width="65">
+                        <img src="logo/shopping_cart-removebg-preview.png" height="60" width="60">
                     
                 
 
