@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+html {
+    margin: 0;
+
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+
+    background-color: #3C3C3C;
+    color: white;
+}
+
+/* Don't Edit Above */
+
+section {
+    width: 50vw;
+}
+
+/* Right Side */
+
+img {
+    width: 50vw;
+    height: 100vh;
+}
+
+/* Left Side */
+
+h1, h2, p {
+    text-align: center;
+
+    margin: 1em;
+}
+
+h1, h2 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 36px;
+}
+
+p a {
+    text-decoration: none;
+}
+
+p a:visited {
+    color: #5577A3;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue {
+    color: #5577A3;
+}
