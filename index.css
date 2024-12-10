@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
-@import url('https://github.com/irrvlo/fonts/blob/a8f0567c4db9931a7f404e909d15c111c11710b1/Forza-Medium.ttf');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap'); */
+/* @import url('https://github.com/irrvlo/fonts/blob/a8f0567c4db9931a7f404e909d15c111c11710b1/Forza-Medium.ttf'); */ /* You cannot import fonts from github. */
 html {
     margin: 0;
 
@@ -59,6 +59,8 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+
+    margin: 2em;
 }
 
 ul {
@@ -107,7 +109,7 @@ ul {
     height: 70px;
 
     display: flex;
- padding-left: 62.4%;
+    /* padding-left: 62.4%;  */ /* <-- One of the reason the navigation bar keep breaking. */
 
     margin-right: 3em;
 }
@@ -131,7 +133,7 @@ ul {
 
     bottom: 10em;
 
-    transform: translateX(-10em);
+    transform: translateX(-7em);
 }
 
 .button p {
