@@ -25,7 +25,6 @@ body {
 .car {
     width: 100vw;
 
-<<<<<<< HEAD
 .preview    {
 
     background: url(../img/blueNemesis.png);
@@ -40,11 +39,9 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
 
-=======
     transform: translateY(-15em);
->>>>>>> 4d0868153eccfbc38320972fbb99112264c2ceed
 }
-
+}
 .carbox {
     height: 50%;
 }
