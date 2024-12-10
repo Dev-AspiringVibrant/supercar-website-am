@@ -8,12 +8,24 @@ html {
 
 body {
     margin: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: #3C3C3C;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 /* Don't Edit Above */
 
-/* Top Section */
+.car {
+    width: 100vw;
 
+<<<<<<< HEAD
 .preview    {
 
     background: url(../img/blueNemesis.png);
@@ -28,34 +40,93 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
 
+=======
+    transform: translateY(-15em);
+>>>>>>> 4d0868153eccfbc38320972fbb99112264c2ceed
 }
 
-.menu {
-    position: absolute;
-    left: 1%;
-    top: 4%;
+.carbox {
+    height: 50%;
+}
 
+/* Line Breaker */
+
+.row {
     display: flex;
+    flex-direction: row;
 }
 
-.title {
-   
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
-   padding-top: 1%;
+.configuration {
+    background-color: #D9D9D9;
+    padding: 1em;
+    height: 20em;
+
+    margin-right: 2em;
 }
 
-/* Bottom Section */
-
-.info {
-    width: 100%;
-    height: 97vh;
-    background-color: #3C3C3C;
-}
-
-.img    {
+.typebox {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    width: 380px;
+    flex-wrap: wrap;
+}
+
+input {
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 1em;
+    padding: 1em;
+
+    height: 50px;
+}
+
+.selector {
+    display: flex;
+    align-items: center;
+}
+
+.method {
+    font-size: 12px;
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #D9D9D9;
+
+    border-radius: 50%;
+}
+
+.comment {
+    width: 28em;
+    height: 28em;
+
+    border-radius: 0 !important; 
+}
+
+.dealer {
+    background-color: #ABABAB;
+    color: white;
+
+    padding: 0em 3em;
+    margin-top: 7em;
+}
+
+/* Line Breaker */
+
+.nospace {
+    margin: 0;
+}
+
+.bottomspace {
+    margin-bottom: 1em;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    color: blue;
 }
