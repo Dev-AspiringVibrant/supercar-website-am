@@ -44,6 +44,7 @@ main {
 header {
     width: 100%;
     height: fit-content;
+
     margin: 0em 2em;
 
     position: absolute;
@@ -55,32 +56,17 @@ header {
 
 nav {
     display: flex;
-    justify-content: space-between;
 }
 
 ul {
     display: flex;
     justify-content: space-between;
+
     list-style-type: none;
+
     width: 100%;
     padding: 0;
     margin: 1em 2em;
-}
-
-.social-footer{
-    width: 6em;
-}
-
-.social-footer-ul{
-    display: flex;
-    flex-direction:column;
-    color: white;
-    list-style: none;
-}
-
-.social-footer-ul a{
-    text-decoration: none;
-    color: white;
 }
 
 .trion {
@@ -134,136 +120,6 @@ ul {
     margin: 0;
     font-family: forza;
 }
-
-/* Section */
-
-section {
-    background: #3c3c3c;
-    color: white;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    width: 100%;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.orangecover {
-    position: relative;
-
-    margin-top: 3em;
-}
-
-.orangecar {
-    width: 100%;
-}
-
-.bluebox {
-    border: 0.2em solid #508CBF;
-    background-color: rgba(60, 60, 60, 0.6);
-
-    position: absolute;
-    bottom: 10em;
-    right: 10em;
-
-    z-index: 1;
-}
-
-/* Footer */
-
-footer {
-    background: #3c3c3c;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    font-family: Forza;
-    color: white;
-}
-
-.footerimg {
-    height: 20px;
-    width: 20px;
-}
-footer div, footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    padding: 0;
-    margin: 0;
-    margin-bottom: 1em;
-}
-
-.sub {
-    display: flex;
-    flex-direction: row;
-}
-
-.subbox {
-    background-color: white;
-
-    width: 220px;
-    height: 40px;
-}
-
-.subboxclick {
-    cursor: pointer;
-
-    background-color: black;
-
-    width: 40px;
-    height: 40px;
-}
-
-/* Extra */
-
-.spacing {
-    width: fit-content;
-
-    margin: 3em;
-}
-
-.description {
-    margin: 0;
-    padding: 3em;
-}
-.description > h2{
-    font-family: racing sans one;
-    font-weight: 400;
-    font-size: 3rem;
-}
-.description > p{
-    font-family: Inter;
-    font-size: 1rem;
-}
-.blueboxspacing {
-    margin: 2em;
-}
-
-.bluebox div {
-    font-size: 48px;
-    padding: 1em;
-}
-
-.beforecolon {
-    font-family: Racing Sans One;
-    font-weight: 400;
-}
-
-p{
-    font-family: Forza;
-
-}
-
-/* SIDEBAR MENU */
 .sidebar {
     height: 100%;
     width: 0;
@@ -315,5 +171,3 @@ p{
     .sidenav a {
         font-size: 18px;
     }
-
-   
