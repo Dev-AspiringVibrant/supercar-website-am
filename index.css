@@ -322,3 +322,28 @@ p{
         font-size: 18px;
     }
 
+/* Media Query */
+
+@media only screen and (max-width: 1000px) {
+
+    .bluebox div {
+        font-size: 29px;
+    }
+    
+    .bluebox {
+        bottom: 2em;
+        right: 2em;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .bluebox div {
+        font-size: 29px;
+    }
+
+    .bluebox {
+        bottom: 3em;
+        right: 3em;
+    }
+}
