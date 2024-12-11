@@ -150,3 +150,9 @@ main {
 #backarrow {
     margin-bottom: 3em;
 }
+
+.buttonref {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
