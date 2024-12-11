@@ -1,6 +1,5 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap'); */
-/* @import url('https://github.com/irrvlo/fonts/blob/a8f0567c4db9931a7f404e909d15c111c11710b1/Forza-Medium.ttf'); */ /* You cannot import fonts from github. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
 html {
     margin: 0;
 
@@ -322,3 +321,40 @@ p{
         font-size: 18px;
     }
 
+/* Media Query */
+
+@media only screen and (max-width: 1000px) {
+
+    .bluebox div {
+        font-size: 29px;
+    }
+    
+    .bluebox {
+        bottom: 2em;
+        right: 2em;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .bluebox div {
+        font-size: 29px;
+    }
+
+    .bluebox {
+        bottom: 3em;
+        right: 3em;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .bluebox div {
+        font-size: 38px;
+    }
+
+    .bluebox {
+        bottom: 3em;
+        right: 6em;
+    }
+}
