@@ -124,3 +124,10 @@ main {
 
     font-size: 18px;
 }
+
+.buy {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}

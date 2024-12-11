@@ -108,7 +108,7 @@ ul {
     height: 70px;
 
     display: flex;
-    /* padding-left: 62.4%;  */ /* <-- One of the reason the navigation bar keep breaking. */
+    /* padding-left: 62.4%;  */ /* <-- One of the reasons the navigation bar keep breaking. */
 
     margin-right: 3em;
 }
@@ -321,3 +321,40 @@ p{
         font-size: 18px;
     }
 
+/* Media Query */
+
+@media only screen and (max-width: 1000px) {
+
+    .bluebox div {
+        font-size: 29px;
+    }
+    
+    .bluebox {
+        bottom: 2em;
+        right: 2em;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .bluebox div {
+        font-size: 29px;
+    }
+
+    .bluebox {
+        bottom: 3em;
+        right: 3em;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .bluebox div {
+        font-size: 38px;
+    }
+
+    .bluebox {
+        bottom: 3em;
+        right: 6em;
+    }
+}

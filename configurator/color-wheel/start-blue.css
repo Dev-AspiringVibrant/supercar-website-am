@@ -29,7 +29,7 @@ main {
 }
 
 .cover {
-    background: url(./img/carday.jpg);
+    background: url(./img/blueNemesis\ copy.png);
     background-size: cover;
     background-position: bottom;
 
@@ -52,14 +52,12 @@ main {
 
     display: flex;
     align-items: center;
-    
+
     height: fit-content;
 }
 
 .name p {
     font-size: 48px;
-
-    margin: 0;
 }
 
 /* Right Box */
@@ -77,36 +75,16 @@ main {
 
 .bottomspace {
     margin-bottom: 12em;
-    font-family: Forza;
 }
 
 .indent {
     margin-left: 20px;
 }
 
-.optiontitle {
-    color: white !important;
-}
-
-.header {
-    color: black !important;
-}
-
 .text {
     margin-bottom: 1em;
     
     font-size: 20px;
-    color: rgba(255, 255, 255, 0.7)
-}
-
-a {
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.7);
-}
-    
-.trion {
-    display: flex;
-    align-items: center;
 }
 
 .transition {
@@ -115,7 +93,7 @@ a {
 }
 
 .transition:hover {
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
     transform: translateX(1em);
 
     cursor: pointer;
@@ -135,7 +113,7 @@ a {
 }
 
 .confirm {
-    background-color: #005FB2;
+    background-color: #8b8b8c;
     padding: 1em;
     border-radius: 10em;
     width: 70%;
@@ -148,9 +126,33 @@ a {
     font-size: 18px;
 }
 
-.buy {
-    width: 100%;
+.gradboxspacing {
+    display: flex;
+}
 
+.gradbox {
+    display: block;
+    background: linear-gradient(gray, black);
+    border: white 1px solid;
+
+    width: 4em;
+    height: 29em;
+
+    margin: 0 7px;
+    margin-bottom: 10em;
+    margin-top: 3em;
+}
+
+#gradbox2 {
+    background: linear-gradient(black, gray) !important;
+}
+
+#backarrow {
+    margin-bottom: 3em;
+}
+
+.buttonref {
+    width: 100%;
     display: flex;
     justify-content: center;
 }
