@@ -108,7 +108,7 @@ ul {
     height: 70px;
 
     display: flex;
-    /* padding-left: 62.4%;  */ /* <-- One of the reason the navigation bar keep breaking. */
+    /* padding-left: 62.4%;  */ /* <-- One of the reasons the navigation bar keep breaking. */
 
     margin-right: 3em;
 }
