@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
-/* @import url('https://github.com/irrvlo/fonts/blob/a8f0567c4db9931a7f404e909d15c111c11710b1/Forza-Medium.ttf'); */
 
 html {
     margin: 0;
@@ -161,9 +160,9 @@ ul {
 
 .div-img {
     width: 100%;
-  height: 1130px;
-  object-fit: none;
-  border: 5px solid red;
+    height: 1130px;
+    object-fit: fill;
+    border: 5px solid red;
 }
 
 /* Slideshow container */
@@ -195,6 +194,7 @@ ul {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
+
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
