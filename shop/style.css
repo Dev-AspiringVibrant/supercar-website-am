@@ -207,4 +207,10 @@ main {
     justify-content: center;
 }
 
+.click  {
+    display: flex;
+    
+    color: white;
+}
+
 
