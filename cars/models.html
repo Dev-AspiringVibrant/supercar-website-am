@@ -12,187 +12,194 @@
 <body>
     <header>
         <div class="cover">
-            <header>
-                <nav>
-                    <ul>
-                        <div id="mySidebar" class="sidebar">
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                            <a class="list" href="#">Models</a>
-                            <a class="list" href="#">Location</a>
-                            <a class="list" href="/shop/index.html">Shop</a>
-                            <a class="list" href="#">About Us</a>
-                            <a class="list" href="#">Contact Us</a>
+            <nav>
+                <ul>
+                    <div id="mySidebar" class="sidebar">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a class="list" href="#">Models</a>
+                        <a class="list" href="#">Location</a>
+                        <a class="list" href="/shop/index.html">Shop</a>
+                        <a class="list" href="#">About Us</a>
+                        <a class="list" href="#">Contact Us</a>
 
-                        </div>
-                        <div id="main">
-                            <button class="openbtn" onclick="openNav()">☰ Menu</button>
-                        </div>
-                        <script>
-                            function openNav() {
-                                document.getElementById("mySidebar").style.width = "400px";
-                                document.getElementById("main").style.marginLeft = "400px";
-                            }
+                    </div>
+                    <div id="main">
+                        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+                    </div>
+                    <script>
+                        function openNav() {
+                            document.getElementById("mySidebar").style.width = "400px";
+                            document.getElementById("main").style.marginLeft = "400px";
+                        }
 
-                            function closeNav() {
-                                document.getElementById("mySidebar").style.width = "0";
-                                document.getElementById("main").style.marginLeft = "0";
+                        function closeNav() {
+                            document.getElementById("mySidebar").style.width = "0";
+                            document.getElementById("main").style.marginLeft = "0";
 
-                            }
-                        </script>
-                        <div>
-                            <a href="./" class="navlink">
-                                <img src="/Trion-Supercars-Images/logo/Copy-of-trion-favicon-new.png" width="100"
-                                    height="100">
-                                <p class="trion">Trion Supercars</p>
-                            </a>
-                        </div>
-                    </ul>
-                </nav>
-            </header>
+                        }
+                    </script>
+                    <div>
+                        <a href="./" class="navlink">
+                            <img src="/Trion-Supercars-Images/logo/Copy-of-trion-favicon-new.png" width="100"
+                                height="100">
+                            <p class="trion">Trion Supercars</p>
+                        </a>
+                    </div>
+                </ul>
+            </nav>
+    </header>
 
-            <div class="slideshow-container">
+    <div class="slideshow-container">
 
-                <div class="mySlides fade">
-                    <img class="div-img" src="/Trion-Supercars-Images/trion-slideshow/triongrey-slideshow.jpg">
-                    <a>
-                        <div class="text">Nemesis RR</div>
-                    </a>
+        <div class="mySlides fade">
+            <img class="div-img" src="/Trion-Supercars-Images/trion-slideshow/triongrey-slideshow.jpg">
+            <a>
+                <div class="text">Nemesis RR</div>
+            </a>
+        </div>
+
+        <div class="mySlides fade">
+            <img class="div-img" src="/Trion-Supercars-Images/trion-slideshow/trion-slideshow.jpg">
+            <a>
+                <div class="text">Nemesis RR Black Opps</div>
+            </a>
+        </div>
+
+        <div class="mySlides fade">
+            <img class="div-img" src="\Trion-Supercars-Images\trion-slideshow\Nemesis_Interior_render_test1.jpg">
+            <a>
+                <div class="text">Nemesis GT</div>
+            </a>
+        </div>
+
+        <div class="mySlides fade">
+            <img class="div-img" src="/Trion-Supercars-Images/trion-slideshow/blackwidow-slideshow.jpg">
+            <a>
+                <div class="text">Black Widow</div>
+            </a>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+<div>
+    <main>
+        <section class="row thirds cards">
+            <article>
+                <img src="/Trion-Supercars-Images/instagram/trionorangesupercars8.jpg" alt="Nemesis RR">
+                <h3 class="rh3">Nemesis RR</h3>
+                <p class="bp">Canadian Thanksgiving is celebrated with family gatherings and feasting. The main
+                    staple foods of this day include roast turkey, stuffing, mashed potatoes, gravy, and pumpkin
+                    pie. A majority of families celebrate the holiday with a hearty meal together.</p>
+
+            </article>
+            <article>
+                <img src="/Trion-Supercars-Images/homepage-images/black-ops1.jpg" alt="Nemesis RR Black Opps"><br>
+                <h3 class="rh3">Nemesis RR Black Opps</h3>
+                <p class="bp">Thanksgiving in Mexico combines traditional flavors with the spirit of festivities.
+                    Pumpkin empanadas and turkey prepared with special spices are some popular dishes. Many families
+                    enjoy a meal that is festive, with their own cultural touch.</p>
+            </article>
+        </section>
+    </main>
+    <main>
+        <section class="row thirds cards">
+            <article>
+                <img src="/Trion-Supercars-Images/instagram/triongraysupercars4.jpg" alt="Nemesis GT">
+                <h3 class="rh3">Nemesis GT</h3>
+                <p class="bp">Chuseok is a sort of Korean Thanksgiving in which one pays respect to ancestors and enjoys
+                    a special feast. Traditional dishes include sweet and spicy braised turkey and a variety of rice
+                    cakes. Families honor their ancestors with a special feast.</p>
+
+            </article>
+            <article>
+                <img src="/Trion-Supercars-Images/trion-slideshow/blackwidow-slideshow.jpg" alt="Black Widow"><br>
+                <h3 class="rh3">Black Widow</h3>
+                <p class="bp">Thanksgiving in Cuba is one of the most special moments, when families and communities get
+                    together: rice, beans, and roasted pork are shared among family members and friends, with stories,
+                    laughter, and thanks.</p>
+            </article>
+        </section>
+    </main>
+</div>
+
+    <footer>
+        <div>
+            <h3>Navigation</h3>
+            <ul>
+                <li>Models</li>
+                <li>Dealership</li>
+                <li>Shop</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <div class="social-footer">
+            <h3>Social</h3>
+            <ul class="social-footer-ul">
+                <a href="https://youtube.com">
+                    <img class="footerimg" src="Icons/yt.svg">
+                </a>
+                <a href="https://www.instagram.com/trionsupercarsgroup/">
+                    <img class="footerimg" src="Icons/ig.svg">
+                </a>
+                <a>
+                    <img class="footerimg" src="Icons/fb.svg">
+                </a>
+                <a href="https://x.com/trionsupercars">
+                    <img class="footerimg" src="Icons/x.svg">
+                </a>
+            </ul>
+        </div>
+        <div>
+            <h3>Subscribe</h3>
+            <div class="sub">
+                <div class="subbox">
+                    <input type="text" placeholder="Email Here" class="subbox">
                 </div>
-
-                <div class="mySlides fade">
-                    <img class="div-img" src="/Trion-Supercars-Images/trion-slideshow/trion-slideshow.jpg">
-                    <a>
-                        <div class="text">Nemesis RR Black Opps</div>
-                    </a>
+                <div class="subboxclick">
                 </div>
-
-                <div class="mySlides fade">
-                    <img class="div-img"
-                        src="\Trion-Supercars-Images\trion-slideshow\Nemesis_Interior_render_test1.jpg">
-                    <a>
-                        <div class="text">Nemesis GT</div>
-                    </a>
-                </div>
-
-                <div class="mySlides fade">
-                    <img class="div-img" src="/Trion-Supercars-Images/trion-slideshow/blackwidow-slideshow.jpg">
-                    <a>
-                        <div class="text">Black Widow</div>
-                    </a>
-                </div>
-                <a class="prev" onclick="plusSlides(-1)">❮</a>
-                <a class="next" onclick="plusSlides(1)">❯</a>
-
             </div>
-            <br>
+        </div>
+    </footer>
+    </section>
 
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
-
-            <script>
-                let slideIndex = 1;
-                showSlides(slideIndex);
-
-                function plusSlides(n) {
-                    showSlides(slideIndex += n);
-                }
-
-                function currentSlide(n) {
-                    showSlides(slideIndex = n);
-                }
-
-                function showSlides(n) {
-                    let i;
-                    let slides = document.getElementsByClassName("mySlides");
-                    let dots = document.getElementsByClassName("dot");
-                    if (n > slides.length) { slideIndex = 1 }
-                    if (n < 1) { slideIndex = slides.length }
-                    for (i = 0; i < slides.length; i++) {
-                        slides[i].style.display = "none";
-                    }
-                    for (i = 0; i < dots.length; i++) {
-                        dots[i].className = dots[i].className.replace(" active", "");
-                    }
-                    slides[slideIndex - 1].style.display = "block";
-                    dots[slideIndex - 1].className += " active";
-                }
-            </script>
-            <main class="cars-main">
-                <section class="section-NemesisRR">
-                    <img class="car-img"
-                        src="\Trion-Supercars-Images\gallery-images\9_25_-rear-34-tilt-lit_fin-1024x575.png"
-                        alt="Nemesis RR">
-                    <div class="rr-text">
-                        <h3 class="h3-rr">Nemesis RR</h3>
-                        <p class="p-rr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt
-                            ornare vestibulum. Ut hendrerit, dolor bibendum porttitor tempus, dolor diam blandit metus,
-                            a interdum quam felis in arcu. Nullam vitae consectetur magna. Maecenas vestibulum nibh nec
-                            tortor faucibus, at blandit lectus dapibus. Donec faucibus arcu id tellus venenatis
-                            interdum. Maecenas a mauris at velit condimentum condimentum. Pellentesque habitant morbi
-                            tristique senectus et netus et malesuada fames ac turpis egestas. Nulla malesuada odio
-                            lacus, sed luctus mauris dignissim auctor. Quisque tempus malesuada mi, a dignissim neque.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed luctus arcu, eu tincidunt
-                            nunc.
-
-                        </p>
-                    </div>
-                </section>
-                <section class="section-NemesisRR-BlackOpps">
-                    <div class="rrbo-text">
-                        <h3 class="h3-rrbo">Nemesis RR Black Opps</h3>
-                        <p class="p-rrbo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt
-                            ornare vestibulum. Ut hendrerit, dolor bibendum porttitor tempus, dolor diam blandit metus,
-                            a interdum quam felis in arcu. Nullam vitae consectetur magna. Maecenas vestibulum nibh nec
-                            tortor faucibus, at blandit lectus dapibus. Donec faucibus arcu id tellus venenatis
-                            interdum. Maecenas a mauris at velit condimentum condimentum. Pellentesque habitant morbi
-                            tristique senectus et netus et malesuada fames ac turpis egestas. Nulla malesuada odio
-                            lacus, sed luctus mauris dignissim auctor. Quisque tempus malesuada mi, a dignissim neque.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed luctus arcu, eu tincidunt
-                            nunc.
-
-                        </p>
-                    </div>
-                    <img class="car-img" src="\Trion-Supercars-Images\homepage-images\KS_config_hanger.jpg"
-                        alt="Nemesis RR Black Opps">
-                </section>
-                <section class="section-NemesisGT">
-                    <img class="car-img" src="\Trion-Supercars-Images\gallery-images\front.png" alt="Nemesis GT">
-                    <div class="gt-text">
-                        <h3 class="h3-gt">Nemesis GT</h3>
-                        <p class="p-gt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt
-                            ornare vestibulum. Ut hendrerit, dolor bibendum porttitor tempus, dolor diam blandit metus,
-                            a interdum quam felis in arcu. Nullam vitae consectetur magna. Maecenas vestibulum nibh nec
-                            tortor faucibus, at blandit lectus dapibus. Donec faucibus arcu id tellus venenatis
-                            interdum. Maecenas a mauris at velit condimentum condimentum. Pellentesque habitant morbi
-                            tristique senectus et netus et malesuada fames ac turpis egestas. Nulla malesuada odio
-                            lacus, sed luctus mauris dignissim auctor. Quisque tempus malesuada mi, a dignissim neque.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed luctus arcu, eu tincidunt
-                            nunc.
-
-                        </p>
-                    </div>
-                </section>
-                <section class="section-BlackWidow">
-                    <div class="gt-bw">
-                        <h3 class="h3-bw">Black Widow</h3>
-                        <p class="p-bw">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tincidunt
-                            ornare vestibulum. Ut hendrerit, dolor bibendum porttitor tempus, dolor diam blandit metus,
-                            a interdum quam felis in arcu. Nullam vitae consectetur magna. Maecenas vestibulum nibh nec
-                            tortor faucibus, at blandit lectus dapibus. Donec faucibus arcu id tellus venenatis
-                            interdum. Maecenas a mauris at velit condimentum condimentum. Pellentesque habitant morbi
-                            tristique senectus et netus et malesuada fames ac turpis egestas. Nulla malesuada odio
-                            lacus, sed luctus mauris dignissim auctor. Quisque tempus malesuada mi, a dignissim neque.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed luctus arcu, eu tincidunt
-                            nunc.
-                        </p>
-                        <img class="car-img" src="\Trion-Supercars-Images\trion-slideshow\blackwidow-slideshow.jpg"
-                            alt="Black Widow">
-                    </div>
-                </section>
-            </main>
+    </main>
 </body>
-
 </html>
