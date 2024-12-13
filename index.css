@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('/Fonts/stylesheet.css');
 html {
     margin: 0;
 
@@ -12,6 +13,7 @@ html {
 
 body {
     margin: 0;
+    background-color: #3c3c3c;
 }
 
 /* Don't Edit Above */
@@ -114,11 +116,11 @@ ul {
 }
 
 .button {
-    background-color: white;
+    background-color: #005FB2;
     padding: 2em;
     border-radius: 5em;
-
-    color: black;
+    color: white;
+    font-family: 'forzamedium';
     font-weight: bold;
 
     width: 15em;
