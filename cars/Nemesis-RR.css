@@ -227,3 +227,25 @@ footer div, footer ul {
     width: 40px;
     height: 40px;
 }
+
+.button {
+    background-color: #005FB2;
+    padding: 2em;
+    border-radius: 5em;
+    color: white;
+    font-family: 'forzamedium';
+    font-weight: bold;
+    width: 15em;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10em;
+    transform: translateX(-7em);
+}
+
+.button:hover{
+    background-color: #00294d;
+    transition: all 0.3s ease-in-out;
+}

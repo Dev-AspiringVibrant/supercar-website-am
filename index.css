@@ -257,6 +257,11 @@ p{
 
 }
 
+.trion-front{
+    max-width: 50%;
+    width: 50%;
+}
+
 /* SIDEBAR MENU */
 .sidebar {
     height: 100%;
