@@ -13,39 +13,49 @@
     <header>
         <div class="cover">
             <nav>
-                <ul>
-                    <div id="mySidebar" class="sidebar">
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                        <a class="list" href="#">Models</a>
-                        <a class="list" href="#">Location</a>
-                        <a class="list" href="/shop/index.html">Shop</a>
-                        <a class="list" href="#">About Us</a>
-                        <a class="list" href="#">Contact Us</a>
 
-                    </div>
-                    <div id="main">
-                        <button class="openbtn" onclick="openNav()">☰ Menu</button>
-                    </div>
-                    <script>
-                        function openNav() {
-                            document.getElementById("mySidebar").style.width = "400px";
-                            document.getElementById("main").style.marginLeft = "400px";
-                        }
+                <div id="mySidebar" class="sidebar">
 
-                        function closeNav() {
-                            document.getElementById("mySidebar").style.width = "0";
-                            document.getElementById("main").style.marginLeft = "0";
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a class="list" href="/cars/models.html">Models</a>
+                    <a class="list" href="#">Location</a>
+                    <a class="list" href="/shop/">Shop</a>
+                    <a class="list" href="#">About Us</a>
+                    <a class="list" href="#">Contact Us</a>
 
-                        }
-                    </script>
-                    <div>
-                        <a href="/index.html" class="navlink">
-                            <img src="/Trion-Supercars-Images/logo/Copy-of-trion-favicon-new.png" width="100"
-                                height="100">
-                            <p class="trion">Trion Supercars</p>
-                        </a>
-                    </div>
-                </ul>
+                </div>
+
+                <div id="main">
+
+                    <button class="openbtn" onclick="openNav()">☰ Menu</button>
+
+                </div>
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "400px";
+                        document.getElementById("main").style.marginLeft = "400px";
+                        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+
+                    }
+                </script>
+
+                <div>
+
+                    <a href="./" class="navlink">
+
+                        <img src="/Trion-Supercars-Images/logo/Copy-of-trion-favicon-new.png" alt="Trion Image"
+                            width="100" height="100">
+
+                        <p class="trion">Trion Supercars</p>
+
+                    </a>
+
+                </div>
             </nav>
     </header>
 
@@ -87,6 +97,7 @@
         <span class="dot" onclick="currentSlide(1)"></span>
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
     </div>
 
     <script>
@@ -127,10 +138,11 @@
                     <h3 class="rh3">Nemesis RR</h3>
                     <p class="bp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum orci libero,
                         vitae aliquam purus semper a. Aenean interdum sapien sed nisl mollis, quis vestibulum lorem
-                        sagittis. Praesent porta sapien at velit pharetra consectetur. Curabitur ligula erat, luctus.</p>
-                        <a>
-                            <button>Learn More</button>
-                        </a>
+                        sagittis. Praesent porta sapien at velit pharetra consectetur. Curabitur ligula erat, luctus.
+                    </p>
+                    <a>
+                        <button>Learn More</button>
+                    </a>
                 </article>
                 <article>
                     <img class="article-img BlackOps" src="/Trion-Supercars-Images/homepage-images/black-ops1.jpg"
@@ -138,11 +150,12 @@
                     <h3 class="rh3">Nemesis RR Black Opps</h3>
                     <p class="bp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum orci libero,
                         vitae aliquam purus semper a. Aenean interdum sapien sed nisl mollis, quis vestibulum lorem
-                        sagittis. Praesent porta sapien at velit pharetra consectetur. Curabitur ligula erat, luctus.</p>
-                        <a>
-                            <button>Learn More</button>
-                        </a>
-                    </article>
+                        sagittis. Praesent porta sapien at velit pharetra consectetur. Curabitur ligula erat, luctus.
+                    </p>
+                    <a>
+                        <button>Learn More</button>
+                    </a>
+                </article>
             </section>
         </main>
         <main>
@@ -153,18 +166,20 @@
                     <h3 class="rh3">Nemesis GT</h3>
                     <p class="bp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum orci libero,
                         vitae aliquam purus semper a. Aenean interdum sapien sed nisl mollis, quis vestibulum lorem
-                        sagittis. Praesent porta sapien at velit pharetra consectetur. Curabitur ligula erat, luctus.</p>
-                        <a>
-                            <button>Learn More</button>
-                        </a>
+                        sagittis. Praesent porta sapien at velit pharetra consectetur. Curabitur ligula erat, luctus.
+                    </p>
+                    <a>
+                        <button>Learn More</button>
+                    </a>
                 </article>
                 <article>
-                    <img class="article-img blackwidow" src="/Trion-Supercars-Images/gallery-images/blackwidow-back.avif"
-                        alt="Black Widow"><br>
+                    <img class="article-img blackwidow"
+                        src="/Trion-Supercars-Images/gallery-images/blackwidow-back.avif" alt="Black Widow"><br>
                     <h3 class="rh3">Black Widow</h3>
                     <p class="bp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum orci libero,
                         vitae aliquam purus semper a. Aenean interdum sapien sed nisl mollis, quis vestibulum lorem
-                        sagittis. Praesent porta sapien at velit pharetra consectetur. Curabitur ligula erat, luctus.</p>
+                        sagittis. Praesent porta sapien at velit pharetra consectetur. Curabitur ligula erat, luctus.
+                    </p>
                     <a>
                         <button>Learn More</button>
                     </a>
