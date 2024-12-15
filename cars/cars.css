@@ -29,14 +29,7 @@ body {
     align-content: space-around;
     flex-direction: row;
 }
-main {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    position: relative;
-}
+
 header {
     width: 100%;
     height: fit-content;
@@ -341,7 +334,7 @@ p {
 .bp {
     font-size: x-large;
 }
-button{
+.btn{
     color: white;
     background-color: #005FB2;
     padding: 1em;
@@ -351,7 +344,7 @@ button{
     font-size: x-large;
 }
 
-button:hover{
+.btn:hover{
     background-color: #00294d;
     border: #00294d;
     transition:ease-in-out;
