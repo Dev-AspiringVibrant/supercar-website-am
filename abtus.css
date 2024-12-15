@@ -120,6 +120,7 @@ footer ul {
     cursor: pointer;
     background-color: transparent;
     color: rgb(0, 0, 0);
+    color: white;
     padding: 10px 15px;
     border: none;
 }
@@ -230,3 +231,6 @@ footer ul {
     top: 4em;
 
 }
+    .sidenav a {
+        font-size: 18px;
+    }
