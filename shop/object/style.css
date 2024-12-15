@@ -20,3 +20,49 @@ nav {
 nav div {
     margin: 2em;
 }
+
+
+
+/* FOOTER */
+footer {
+    background: #3c3c3c;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: Forza;
+    color: white;
+}
+
+.footerimg {
+    height: 20px;
+    width: 20px;
+}
+footer div, footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+}
+
+.subbox {
+    background-color: white;
+
+    width: 220px;
+    height: 40px;
+}
+
+.subboxclick {
+    cursor: pointer;
+    background-color: #005FB2;
+    width: 40px;
+    height: 40px;
+}
