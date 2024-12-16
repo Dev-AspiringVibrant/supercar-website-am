@@ -161,7 +161,7 @@ ul {
 
 .navlink {
     text-decoration: none;
-    font-family: forza;
+    font-family: 'forzamedium';
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,7 +174,7 @@ footer {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    font-family: Forza;
+    font-family: 'Forzamedium';
     color: white;
 }
 
@@ -335,3 +335,119 @@ footer ul {
     padding: 1em;
     margin: 0;
 }
+
+/* Four Cards */
+.bottom-content>section {
+    width: 30%;
+    margin: 1em;
+}
+
+.short-abtus {
+    display: flex;
+    justify-content: center;
+
+}
+
+main {
+    display: block;
+    unicode-bidi: isolate;
+    height: 25em;
+}
+
+.team{
+    height: 100em;
+}
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 12em;
+    height: 1em;
+}
+
+.cards article img,
+.card img {
+    border: none;
+}
+
+.article-img {
+    width: 100%;
+    height: 50%;
+    border: solid 1px darkgrey;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.rh3 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-family: 'forzamedium';
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: black;
+}
+
+.cards article h2,
+.cards article h3,
+.cards article p,
+.card h2,
+.card h3,
+.card p {
+    padding: 0 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.bp {
+    font-size: x-large;
+    color: black;
+}
+
+.cards article,
+.card {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.33);
+    border: solid 0px darkgrey;
+    background-color: rgb(227, 227, 227);
+}
+
+.fourth article {
+    width: 24%;
+}
+
+article {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cards article a,
+.card a {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}   
