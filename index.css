@@ -228,6 +228,7 @@ footer div, footer ul {
 .description {
     margin: 0;
     padding: 3em;
+    width: 600px;
 }
 .description > h2{
     font-family: racing sans one;

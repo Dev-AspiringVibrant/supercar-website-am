@@ -231,6 +231,7 @@ footer ul {
     display: flex;
     align-items: center;
     color: white;
+    background-size: cover;
 }
 
 .future {
