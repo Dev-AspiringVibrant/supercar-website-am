@@ -230,18 +230,107 @@ footer ul {
     height: 70rem;
     display: flex;
     align-items: center;
+    color: white;
 }
 
-.future{
+.future {
+    font-family: 'forzamedium';
+    color: rgb(0, 0, 0);
+    padding: 4em;
+    object-fit: fill;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.trion-blue {
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.p {
+    border: rgba(255, 228, 196, 0.445);
+    padding-top: 9em;
+    padding-left: 1em;
+    padding-right: 0em;
+    position: absolute;
+    top: 26rem;
+    right: 0%;
+    width: 50%;
+    height: 32rem;
+    font-size: large;
+    transform: translate(-50%, -50%);
+    background-color: #005fb2b2;
+    border-radius: 2em;
+    z-index: 1;
+}
+
+.future-h2 {
+    border: rgba(255, 228, 196, 0.445);
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    position: absolute;
+    top: 10rem;
+    right: 1%;
+    height: 13rem;
+    transform: translate(-50%, -50%);
+    border-radius: 2rem 2rem;
+    z-index: 2;
+    font-family: 'Racing Sans One';
+    font-weight: 400;
+    font-size: 500%;
+}
+
+
+.trion-different {
+    height: 20em;
+    width: 100%;
+    background: rgb(214, 214, 214);
+    font-family: 'forzamedium';
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 2em;
+    flex-direction: row;
+}
+
+.trion-different h1{
+    width: 100%;
+    font-size: 400%;
+}
+
+.trion-different p{
+    font-size: 130%;
+}
+.ceo{
+    display: flex;
+    margin: 0;
+}
+.ceo-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.ceo-p{
+    flex-direction: column;
     font-family: 'forzamedium';
     color: white;
-    padding: 4em;
-    background-image: url(/Trion-Supercars-Images/gallery-images/nemesis-e-blue-back-1024x537.jpg);
-    background-repeat: no-repeat;
-    .future-h2{
-        font-family: 'Racing Sans One';
-        font-weight: 400;
-        font-size: 500%;
-    }
+    font-size: 120%;
+    padding: 1em;
+    margin: 0;
 }
 
+.ceoname{
+    font-family: 'Racing Sans One';
+    color: white;
+    font-size:400%;
+    font-weight: 200;
+    padding: 1em;
+    margin: 0;
+}
