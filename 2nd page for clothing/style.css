@@ -200,5 +200,12 @@ footer div, footer ul {
     flex-direction: row;
     justify-content: left;
     align-items: flex-start;
+    
+}
 
+.Name   {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
