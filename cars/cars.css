@@ -1,10 +1,10 @@
+@import url('/Fonts/stylesheet.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
-@import url('/Fonts/stylesheet.css');
+
 
 html {
     margin: 0;
-    overflow-x: hidden;
 }
 
 * {
@@ -13,69 +13,88 @@ html {
 
 body {
     margin: 0;
-    background-color: #3c3c3c;
+    font: forza;
+    background-color: #3C3C3C;
 }
 
 /* Don't Edit Above */
 
 /* Cover */
 
-main {
-    position: absolute;
+.cover {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    position: relative;
-}
-
-/* FOOTER */
-footer {
-    background: #3c3c3c;
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
-    font-family: Forza;
-    color: white;
-}
-
-.footerimg {
-    height: 20px;
-    width: 20px;
-}
-
-footer div,
-footer ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    padding: 0;
-    margin: 0;
-    margin-bottom: 1em;
-}
-
-.sub {
-    display: flex;
+    z-index: 1;
+    align-content: space-around;
     flex-direction: row;
 }
 
-.subbox {
+header {
+    width: 100%;
+    height: fit-content;
+    margin: 0em 2em;
+    top: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header:last-child{
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 1em 2em;
+}
+
+.trion {
+    color: white;
+    font-size: xx-large;
+    margin: 0;
+    font-family: 'forzamedium';
+    right: 100%;
+}
+
+.navlink {
+    text-decoration: none;
+    font-family: 'forzamedium';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
     background-color: white;
-
-    width: 220px;
-    height: 40px;
+    padding: 2em;
+    border-radius: 5em;
+    color: black;
+    font-weight: bold;
+    width: 15em;
+    height: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10em;
+    transform: translateX(-10em);
 }
 
-.subboxclick {
-    cursor: pointer;
-    background-color: #005FB2;
-    width: 40px;
-    height: 40px;
+.button p {
+    margin: 0;
+    font-family: forza;
 }
 
-/* SIDEBAR MENU */
 .sidebar {
     height: 100%;
     width: 0;
@@ -119,7 +138,6 @@ footer ul {
     font-size: 30px;
     cursor: pointer;
     background-color: transparent;
-    color: rgb(0, 0, 0);
     color: white;
     padding: 10px 15px;
     border: none;
@@ -129,46 +147,289 @@ footer ul {
     font-size: 18px;
 }
 
-header {
+/* IMAGE CAROUSEL */
+.mySlides {
+    display: none
+}
+
+.div-img {
     width: 100%;
-    height: fit-content;
-    margin: 0em 2em;
+    height: 1130px;
+    object-fit: fill;
+margin: 0;
+
+}
+
+.slideshow-container {
+    width: 100%;
+    height: 1130px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
     position: absolute;
-    top: 0;
-    color: rgb(0, 0, 0);
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    margin: 2em;
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}*
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
+.text {
+    color: black;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    font-size: 5em;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
     width: 100%;
-    padding: 0;
-    margin: 1em 2em;
-}
-
-.trion {
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
-    margin: 0;
-}
-
-.navlink {
-    text-decoration: none;
+    text-align: center;
     font-family: forza;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
-/* Footer */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
 
+.active,
+.dot:hover {
+    background-color: #005FB2;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .6
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 3em
+    }
+    .div-img{
+        object-fit:cover;
+    }
+    .div-rr{
+        object-position: 35% 100%;
+    }
+    .div-bo{
+        object-position: 50% 100%;
+    }
+    .div-gt{
+        object-position: 40% 100%;
+    }
+    .div-bw{
+        object-position: 45% 100%;
+    }
+}
+
+/* Two Cards */
+.bottom-content>section {
+    width: 30%;
+    margin: 1em;
+}
+
+.short-abtus {
+    display: flex;
+    justify-content: center;
+
+}
+
+main {
+    display: block;
+    unicode-bidi: isolate;
+    height: 50em;
+}
+
+.row {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 12em;
+    height: 1em;
+}
+
+.cards article img,
+.card img {
+    border: none;
+}
+
+.article-img {
+    width: 100%;
+    height: 50%;
+    border: solid 1px darkgrey;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.rh3 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-family: forzamedium;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.cards article h2,
+.cards article h3,
+.cards article p,
+.card h2,
+.card h3,
+.card p {
+    padding: 0 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.bp {
+    font-size: x-large;
+}
+.btn{
+    color: white;
+    background-color: #005FB2;
+    padding: 1em;
+    border: #005FB2;
+    border-radius: 1em;
+    font-family: 'Forzabold';
+    font-size: x-large;
+}
+
+.btn:hover{
+    background-color: #00294d;
+    border: #00294d;
+    transition:ease-in-out;
+}
+.cards article,
+.card {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.33);
+    border: solid 0px darkgrey;
+    background-color: rgb(227, 227, 227);
+}
+
+.thirds article {
+    width: 48%;
+}
+
+article {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.cards article a,
+.card a {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+}   
+
+/* footer */
+footer {
+    background: #3c3c3c;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: Forza;
+    color: white;
+    margin-top: 12em;
+}
+
+.footerimg {
+    height: 20px;
+    width: 20px;
+}
+footer div, footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+}
+
+.subbox {
+    background-color: white;
+    width: 220px;
+    height: 40px;
+}
+
+.subboxclick {
+    cursor: pointer;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+}
+
+/* FOOTER */
 footer {
     background: #3c3c3c;
     display: flex;
@@ -182,9 +443,7 @@ footer {
     height: 20px;
     width: 20px;
 }
-
-footer div,
-footer ul {
+footer div, footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -209,139 +468,7 @@ footer ul {
 
 .subboxclick {
     cursor: pointer;
-
     background-color: #005FB2;
-
     width: 40px;
     height: 40px;
-}
-
-.cover {
-    width: 100%;
-    height: 10vh;
-}
-
-.follow-trion-history {
-    font-family: 'forzabold';
-    font-size: 900%;
-    width: 100%;
-    height: 100%;
-    background-image: url(/Trion-Supercars-Images/gallery-images/trionfastavif.png);
-    height: 70rem;
-    display: flex;
-    align-items: center;
-    color: white;
-    background-repeat: no-repeat;
-}
-
-
-.future {
-    font-family: 'forzamedium';
-    color: rgb(0, 0, 0);
-    padding: 4em;
-    object-fit: fill;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.trion-blue {
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-
-.p {
-    border: rgba(255, 228, 196, 0.445);
-    padding-top: 9em;
-    padding-left: 1em;
-    padding-right: 0em;
-    position: absolute;
-    top: 26rem;
-    right: 0%;
-    width: 50%;
-    height: 32rem;
-    font-size: large;
-    transform: translate(-50%, -50%);
-    background-color: #005fb2b2;
-    border-radius: 2em;
-    z-index: 1;
-}
-
-.future-h2 {
-    border: rgba(255, 228, 196, 0.445);
-    padding-top: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    position: absolute;
-    top: 10rem;
-    right: 1%;
-    height: 13rem;
-    transform: translate(-50%, -50%);
-    border-radius: 2rem 2rem;
-    z-index: 2;
-    font-family: 'Racing Sans One';
-    font-weight: 400;
-    font-size: 500%;
-}
-
-
-.trion-different {
-    height: 20em;
-    width: 100%;
-    background: rgb(214, 214, 214);
-    font-family: 'forzamedium';
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    padding: 2em;
-    flex-direction: row;
-}
-
-.trion-different h1{
-    width: 100%;
-    font-size: 400%;
-}
-
-.trion-different p{
-    font-size: 130%;
-}
-.ceo{
-    display: flex;
-    margin: 0;
-}
-.ceo-section{
-    display: flex;
-    flex-direction: column;
-}
-
-.ceo-p{
-    flex-direction: column;
-    font-family: 'forzamedium';
-    color: white;
-    font-size: 120%;
-    padding: 1em;
-    margin: 0;
-}
-
-.ceoname{
-    font-family: 'Racing Sans One';
-    color: white;
-    font-size:400%;
-    font-weight: 200;
-    padding: 1em;
-    margin: 0;
-}
-
-.sh1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: #005FB2;
-    height:1em
 }
