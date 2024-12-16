@@ -203,9 +203,121 @@ footer div, footer ul {
     
 }
 
-.Name   {
+
+.Name {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 1000px;
+}
+
+.Low    {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1000px;
+    bottom: 730px;
+}
+
+.mid    {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1000px;
+    bottom: 700px;
+}
+
+.color {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1000px;
+    bottom: 600px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 1000px;
+    bottom: 570px;
+    
+}
+
+.size   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 1000px;
+    bottom: 400px;
+}
+
+.push   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 1000px;
+    bottom: 350px;
+    
+
+}
+
+.push, button{
+   height:4em;
+   width: 10em;
+}
+
+.buy    {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 900px;
+    bottom: 230px;
+    background-color: rgb(173, 174, 175);
+    width: 50em;
+}
+.payment   {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 900px;
+    bottom: 180px;
+}
+
+.shipping   {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 900px;
+    bottom: 130px;
+}
+
+.detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 1000px;
+    bottom: -150px;
 }
