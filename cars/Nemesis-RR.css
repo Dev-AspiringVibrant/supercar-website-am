@@ -81,11 +81,20 @@ ul {
     font-family:'Racing Sans One';
     font-weight: 400;
     font-size: 680%;
+    margin: 0;
+
+    text-shadow: black 1px 1px;
 }
 
 .abt-rr-p{
     font-size: 200%;
     text-align: start;
+    margin: 0;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    text-shadow: black 1px 1px;
+    border-radius: 1em;
+    padding: 1em;
 }
 
 .header-text{

@@ -155,4 +155,39 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (min-height: 2000px) {
+    .gradbox {
+        height: 29em;
+    }
+}
+
+@media only screen and (max-height: 950px) {
+    .gradbox {
+        margin-bottom: 7em;
+    }
+}
+
+@media only screen and (max-height: 850px) {
+    .gradbox {
+        margin-bottom: 4em;
+        height: 25em;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    .gradbox {
+        margin-bottom: 2em;
+        height: 18em;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .gradbox {
+        margin-bottom: 2em;
+        height: 12em;
+    }
 }
