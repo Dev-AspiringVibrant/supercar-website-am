@@ -4,7 +4,7 @@
 - [x] Home Page
 
  - [ ] Models
-   - [ ] Configurator
+  - [ ] Configurator
  - [ ] Merch Store Home
  - [ ] About Trion
  - [ ] Account
