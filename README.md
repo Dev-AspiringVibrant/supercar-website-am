@@ -3,12 +3,12 @@
 
 - [x] Home Page
 
- - [ ] Models
+  - [ ] Models
   - [ ] Configurator
- - [ ] Merch Store Home
- - [ ] About Trion
- - [ ] Account
- - [ ] Cart
+  - [ ] Merch Store Home
+  - [ ] About Trion
+  - [ ] Account
+  - [ ] Cart
 
   - [ ] Nemesis
   - [ ] Black Widow
