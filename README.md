@@ -4,11 +4,38 @@
 - [x] Home Page
 
   - [ ] Models
+    - [ ] Nemesis
+    - [ ] Black Widow
+
   - [ ] Configurator
+    - [ ] Model Selector
+       
+
   - [ ] Merch Store Home
+    - [ ] Categories
+       
   - [ ] About Trion
+
   - [ ] Account
+    - [ ] Account Settings
+    - [ ] Concierge
+    - [ ] Order History
+    - [ ] Saved Car Configurations
+  
   - [ ] Cart
 
-  - [ ] Nemesis
-  - [ ] Black Widow
+<br>
+
+- [ ] Exterior
+- [ ] Options
+- [ ] Select Option
+- [ ] Choose Option
+- [ ] Confimration
+
+- [ ] Interior
+- [ ] Similar to exterior flow
+
+- [ ] Category Page
+- [ ] Category Products
+- [ ] Product Detail
+- [ ] Cart Page
