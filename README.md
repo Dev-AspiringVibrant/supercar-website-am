@@ -1,2 +1,2 @@
 #Complete the flow chart
-!(./assets/flow-chart)
+!(/assets/flow-chart)
