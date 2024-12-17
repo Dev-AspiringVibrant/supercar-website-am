@@ -13,9 +13,11 @@
 
   - [x] Merch Store Home
     - [ ] Categories
+  
   Add Media Query
        
   - [x] About Trion
+  
   Add Media Query
 
   - [x] Account
