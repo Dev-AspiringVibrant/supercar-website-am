@@ -7,14 +7,16 @@
     - [x] Nemesis
     - [ ] Black Widow
 
-  - [ ] Configurator
-    - [ ] Model Selector
+  - [x] Configurator
+    - [x] Model Selector
        
 
-  - [ ] Merch Store Home
+  - [x] Merch Store Home
     - [ ] Categories
+  Add Media Query
        
-  - [ ] About Trion
+  - [x] About Trion
+  Add Media Query
 
   - [x] Account
     - [ ] Account Settings
