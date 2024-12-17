@@ -46,4 +46,4 @@
 
 <br>
 
-[^1] https://www.figma.com/design/7syu787ucxsJbC9trV9V8U/D2MAL?node-id=208-149&t=AHoQmY0QG2xDCum4-1
+Sources: https://www.figma.com/design/7syu787ucxsJbC9trV9V8U/D2MAL?node-id=208-149&t=AHoQmY0QG2xDCum4-1
