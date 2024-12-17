@@ -4,7 +4,7 @@
 - [x] Home Page
 
   - [ ] Models
-    - [ ] Nemesis
+    - [x] Nemesis
     - [ ] Black Widow
 
   - [ ] Configurator
@@ -16,7 +16,7 @@
        
   - [ ] About Trion
 
-  - [ ] Account
+  - [x] Account
     - [ ] Account Settings
     - [ ] Concierge
     - [ ] Order History
@@ -26,11 +26,11 @@
 
 <br>
 
-- [ ] Exterior
-- [ ] Options
-- [ ] Select Option
-- [ ] Choose Option
-- [ ] Confimration
+- [x] Exterior
+- [x] Options
+- [x] Select Option
+- [x] Choose Option
+- [x] Confimration
 
 - [ ] Interior
 - [ ] Similar to exterior flow
