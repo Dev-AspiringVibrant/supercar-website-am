@@ -72,6 +72,11 @@ section {
     margin-right: 10px;
 }
 
+.box:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
 .textbox {
     width: 40px;
     height: 40px;
@@ -242,8 +247,25 @@ footer div, footer ul {
     border: none;
 }
 
-    .sidenav a {
+.sidenav a {
         font-size: 18px;
-    }
+}
 
-    /* Section */
+    /* --- */
+
+.top p {
+        font-size: 20px;
+        margin: 0;
+}
+.fourty {
+        font-size: 40px !important;
+}
+
+.space3 {
+        display: flex;
+        justify-content: space-around;
+}
+
+.longbox {
+    background-color: lightgrey;
+}
