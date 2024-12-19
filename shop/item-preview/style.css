@@ -11,6 +11,8 @@ body {
 
     width: 100%;
     height: 100vh;
+
+    background-color: white;
 }
 
 * {
@@ -51,6 +53,62 @@ header nav ul {
 
 section {
     display: flex;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.textbox {
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+}
+
+.textbox:hover {
+    background-color: lightgrey;
+}
+
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.white {
+    background-color: rgb(237, 226, 226);
+}
+.blue {
+    background-color: blue;
+}
+
+.colorrow {
+    display: flex;
+    
+
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
