@@ -12,13 +12,11 @@
        
 
   - [x] Merch Store Home
-    - [ ] Categories
-  
-  Add Media Query
+    - [x] Categories
+      - [ ] Add Media Queries
        
   - [x] About Trion
-  
-  Add Media Query
+    - [ ] Add Media Queries
 
   - [x] Account
     - [ ] Account Settings
@@ -39,9 +37,9 @@
 - [ ] Interior
 - [ ] Similar to exterior flow
 
-- [ ] Category Page
-- [ ] Category Products
-- [ ] Product Detail
+- [x] Category Page
+- [x] Category Products
+- [x] Product Detail
 - [ ] Cart Page
 
 <br>
