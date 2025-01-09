@@ -76,17 +76,29 @@ ul {
 .social-footer-ul a{
     text-decoration: none;
     color: white;
+
+}
+
+.nav-footer-h3{
+    font-family: 'forzamedium';
+}
+
+.nav-footer a{
+    text-decoration: none;
+    color: white;
+    font-family: 'forzamedium';
 }
 
 .trion {
     color: white;
     font-size: xx-large;
     margin: 0;
+    font-family: 'forzamedium';
 }
 
 .navlink {
     text-decoration: none;
-    font-family: forza;
+    font-family: 'forzamedium';
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -126,7 +138,7 @@ ul {
 
 .button p {
     margin: 0;
-    font-family: forza;
+    font-family: 'forzamedium';
 }
 
 /* Section */
@@ -177,7 +189,7 @@ footer {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    font-family: Forza;
+    font-family: 'forzamedium';
     color: white;
 }
 
@@ -284,7 +296,7 @@ p{
     color: #ffffff;
     display: block;
     transition: 0.3s;
-    font-family: forza;
+    font-family: 'forzamedium';
 }
 
 .sidebar .list:hover {
