@@ -22,56 +22,57 @@
 
             <nav>
 
-                    <div id="mySidebar" class="sidebar">
+                <div id="mySidebar" class="sidebar">
 
-                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                        <a class="list" href="/cars/models.html">Models</a>
-                        <a class="list" href="#">Location</a>
-                        <a class="list" href="/shop/">Shop</a>
-                        <a class="list" href="/about-us.html">About Us</a>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a class="list" href="/cars/models.html">Models</a>
+                    <a class="list" href="#">Location</a>
+                    <a class="list" href="/shop/">Shop</a>
+                    <a class="list" href="/about-us.html">About Us</a>
 
-                    </div>
+                </div>
 
-                    <div id="main">
+                <div id="main">
 
-                        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+                    <button class="openbtn" onclick="openNav()">☰ Menu</button>
 
-                    </div>
-                    <script>
-                        function openNav() {
-                            document.getElementById("mySidebar").style.width = "400px";
-                            document.getElementById("main").style.marginLeft = "400px";
-                            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-                        }
+                </div>
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "400px";
+                        document.getElementById("main").style.marginLeft = "400px";
+                        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                    }
 
-                        function closeNav() {
-                            document.getElementById("mySidebar").style.width = "0";
-                            document.getElementById("main").style.marginLeft = "0";
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
 
-                        }
-                    </script>
+                    }
+                </script>
 
-                    <div>
+                <div>
 
-                        <a href="./" class="navlink">  
+                    <a href="./" class="navlink">
 
-                            <img src="./Trion-Supercars-Images/logo/Copy-of-trion-favicon-new.png" alt="Trion Image" width="100" height="100">
+                        <img src="./Trion-Supercars-Images/logo/Copy-of-trion-favicon-new.png" alt="Trion Image"
+                            width="100" height="100">
 
-                            <p class="trion">Trion Supercars</p>   
+                        <p class="trion">Trion Supercars</p>
 
-                        </a>
+                    </a>
 
-                    </div>
+                </div>
 
-                    <div class="profile">
+                <div class="profile">
 
-                        <a href="./login.html">
-                            
-                            <img src="./Icons/profile-icon.png" alt="Profile picture icon" width="160" height="100">
+                    <a href="./login.html">
 
-                        </a>
+                        <img src="./Icons/profile-icon.png" alt="Profile picture icon" width="160" height="100">
 
-                    </div>
+                    </a>
+
+                </div>
 
             </nav>
 
@@ -95,12 +96,18 @@
 
             <div class="spacing row">
 
-                <img src="./Trion-Supercars-Images/gallery-images/front.png" class="trion-front" alt="Front Face of Trion Supercar">
+                <img src="./Trion-Supercars-Images/gallery-images/front.png" class="trion-front"
+                    alt="Front Face of Trion Supercar">
 
                 <div class="description">
 
                     <h2>Headliner</h2>
-                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Gravida morbi consequat eleifend consequat suspendisse sem. Montes habitant himenaeos habitant felis odio. Sapien lacinia volutpat duis aenean senectus nec. Ullamcorper suspendisse sem nullam primis varius. At fames quam volutpat donec felis nibh placerat ex cursus. Netus habitasse magna justo enim orci aliquet neque sapien imperdiet. Maecenas ornare potenti suspendisse lacus elit. Morbi malesuada aenean tellus; lacus sodales aptent. Taciti per vulputate suscipit elit urna maecenas dolor.</p>
+                    <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Gravida morbi consequat eleifend consequat
+                        suspendisse sem. Montes habitant himenaeos habitant felis odio. Sapien lacinia volutpat duis
+                        aenean senectus nec. Ullamcorper suspendisse sem nullam primis varius. At fames quam volutpat
+                        donec felis nibh placerat ex cursus. Netus habitasse magna justo enim orci aliquet neque sapien
+                        imperdiet. Maecenas ornare potenti suspendisse lacus elit. Morbi malesuada aenean tellus; lacus
+                        sodales aptent. Taciti per vulputate suscipit elit urna maecenas dolor.</p>
 
                 </div>
 
@@ -135,27 +142,29 @@
 
             <footer>
 
-                <div>
+                <div class="nav-footer">
 
-                    <h3>Navigation</h3>
+                    <h3 class="nav-footer-h3">Navigation</h3>
 
                     <ul>
-
-                        <li>Models</li>
+                        <a href="/cars/models.html">
+                            <li>Models</li>
+                        </a>
                         <li>Dealership</li>
-                        <li>Shop</li>
-                        <li>About Us</li>
-                        <li>
-                            <div id="google_translate_element"></div>
-                        </li>
-
+                        <a href="/shop/index.html">
+                            <li>Shop</li>
+                        </a>
+                        <a href="about-us.html">
+                            <li>About Us</li>
+                        </a>
+                        <div id="google_translate_element"></div>
                     </ul>
 
                 </div>
 
                 <div class="social-footer">
 
-                    <h3>Social</h3>
+                    <h3 class="nav-footer-h3">Social</h3>
 
                     <ul class="social-footer-ul">
 
@@ -168,7 +177,7 @@
                         <a>
                             <img class="footerimg" src="Icons/fb.svg">
                         </a>
-                        <a href="https://x.com/trionsupercars" target="_blank"> 
+                        <a href="https://x.com/trionsupercars" target="_blank">
                             <img class="footerimg" src="Icons/x.svg">
                         </a>
 
@@ -179,7 +188,7 @@
 
                 <div>
 
-                    <h3>Subscribe</h3>
+                    <h3 class="nav-footer-h3">Subscribe</h3>
 
                     <div class="sub">
 
