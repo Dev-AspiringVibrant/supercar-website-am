@@ -134,6 +134,12 @@ ul {
     bottom: 10em;
 
     transform: translateX(-7em);
+
+    transition: 500ms;
+}
+
+.button:hover {
+    background-color: #023d71;
 }
 
 .button p {
@@ -225,8 +231,14 @@ footer div, footer ul {
 
     background-color: #005FB2;
 
-    width: 40px;
+    width: 60px;
     height: 40px;
+
+    transition: 500ms;
+}
+
+.subboxclick:hover {
+    background-color: #023d71;
 }
 
 /* Extra */
