@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('/Fonts/stylesheet.css');
 html {
     margin: 0;
     
@@ -77,7 +78,7 @@ main {
 
 .bottomspace {
     margin-bottom: 12em;
-    font-family: Forza;
+    font-family: 'forzamedium';
 }
 
 .indent {
@@ -102,6 +103,7 @@ main {
 a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.7);
+    font-family: 'Forzamedium';
 }
     
 .trion {
