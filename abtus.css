@@ -9,6 +9,7 @@ html {
 
 * {
     box-sizing: border-box;
+    font-family: "Forzamedium" !important;
 }
 
 body {
@@ -231,7 +232,11 @@ footer ul {
     display: flex;
     align-items: center;
     color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .future {
@@ -244,6 +249,18 @@ footer ul {
     position: relative;
     display: flex;
     justify-content: center;
+}
+
+.future-text {
+    width: 40em;
+    height: 50em;
+    background-color: #005fb2b2;
+    position: absolute;
+    top: 7em;
+    border: rgba(255, 228, 196, 0.445) 4px solid;
+    color: white;
+    text-shadow: black 1px 1px;
+    padding: 1em;
 }
 
 .trion-blue {
