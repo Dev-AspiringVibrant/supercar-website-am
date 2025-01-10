@@ -247,6 +247,18 @@ footer ul {
     justify-content: center;
 }
 
+.future-text {
+    width: 40em;
+    height: 50em;
+    background-color: #005fb2b2;
+    position: absolute;
+    top: 7em;
+    border: rgba(255, 228, 196, 0.445) 4px solid;
+    color: white;
+    text-shadow: black 1px 1px;
+    padding: 1em;
+}
+
 .trion-blue {
     background-color: #cccccc;
     background-position: center;
