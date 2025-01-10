@@ -88,6 +88,8 @@ section {
     align-items: center;
 
     margin: 0;
+
+    cursor: pointer;
 }
 
 .textbox:hover {
@@ -274,6 +276,11 @@ footer div, footer ul {
     height: 2em;
     text-align: center;
     margin: 4px 0 !important;
+    cursor: pointer;
+}
+
+.longbox:hover {
+    background-color: grey;
 }
 
 li {
