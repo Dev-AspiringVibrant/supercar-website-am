@@ -8,6 +8,7 @@ html {
 
 * {
     box-sizing: border-box;
+    font-family: "Forzamedium" !important;
 }
 
 body {
