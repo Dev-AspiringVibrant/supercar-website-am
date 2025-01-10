@@ -232,7 +232,11 @@ footer ul {
     display: flex;
     align-items: center;
     color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .future {
