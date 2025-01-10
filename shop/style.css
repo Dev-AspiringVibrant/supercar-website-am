@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('/Fonts/stylesheet.css');
 html {
     margin: 0;
 
@@ -15,6 +16,7 @@ body {
 
 * {
     box-sizing: border-box;
+    font-family: "Forzamedium" !important;
 }
 
 /* Don't Edit Above */
@@ -269,6 +271,6 @@ footer div, footer ul {
 .subboxclick {
     cursor: pointer;
     background-color: #005FB2;
-    width: 40px;
+    width: 60px;
     height: 40px;
 }
