@@ -2,139 +2,108 @@
 
 <html>
 
-    <head>
+<head>
 
-        <title>Configurator</title>
+    <title>Configurator</title>
 
-        <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
 
-    </head>
+</head>
 
-    <body>
-        
-        <div class="cover"></div>
+<body>
+    <div class="cover">
+    <main id="-">
+        <header>
 
-        <main>
 
-            <div class="cover">
 
-                <header>
-        
-                    <nav>
-        
-                        <div id="mySidebar" class="sidebar">
-        
-                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                            <a class="list" href="/cars/models.html">Models</a>
-                            <a class="list" href="#">Location</a>
-                            <a class="list" href="/shop/">Shop</a>
-                            <a class="list" href="/about-us.html">About Us</a>
-        
-                        </div>
-        
-                        <div id="main">
-        
-                            <button class="openbtn" onclick="openNav()">☰ Menu</button>
-        
-                        </div>
-                        <script>
-                            function openNav() {
-                                document.getElementById("mySidebar").style.width = "400px";
-                                document.getElementById("main").style.marginLeft = "400px";
-                                document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-                            }
-        
-                            function closeNav() {
-                                document.getElementById("mySidebar").style.width = "0";
-                                document.getElementById("main").style.marginLeft = "0";
-        
-                            }
-                        </script>
-        
-                        <div>
-        
-                            <a href="./" class="navlink">
-        
-                                <img src="./Trion-Supercars-Images/logo/Copy-of-trion-favicon-new.png" alt="Trion Image"
-                                    width="100" height="100">
-        
-                                <p class="trion">Trion Supercars</p>
-        
-                            </a>
-        
-                        </div>
-        
-                        <div class="profile">
-        
-                            <a href="./login.html">
-        
-                                <img src="./Icons/profile-icon.png" alt="Profile picture icon" width="160" height="100">
-        
-                            </a>
-        
-                        </div>
-        
-                    </nav>
-        
-                </header>
-            </div>
+            <nav>
+                <div id="mySidebar" class="sidebar">
 
-            <div class="name">
-                <a  href="/index.html" class="trion">
-                <img src="img/trion-favicon-new.png" height="100" width="100">
-                <p>TRION</p>
-                </a>
-            </div>
-
-            <div class="options">
-
-                <p class="text optiontitle">Configure</p>
-
-                <div style="width: 100%;" class="bottomspace">
-
-                    <div class="inside">
-
-                        <p class="text header">Interior</p>
-
-                    </div>
-                
-                    <p class="indent text transition">BUCKET SEATS</p>
-                    <p class="indent text transition">STAR ROOF</p>
-                    <p class="indent text transition">SEAT COLOR</p>
-                    <p class="indent text transition">SEAT TRIM</p>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a class="list" href="/cars/models.html">Models</a>
+                    <a class="list" href="#">Location</a>
+                    <a class="list" href="/shop/">Shop</a>
+                    <a class="list" href="/about-us.html">About Us</a>
 
                 </div>
-
-                <div style="width: 100%;" class="bottomspace">
-
-                    <div class="inside">
-
-                        <p class="text header">Exterior</p>
-
-                    </div>
-            
-                    <a href="./color-wheel/start.html"><p class="indent text transition">PAINT</p></a>
-                    <p class="indent text transition">RIMS</p>
-                    <p class="indent text transition">BRAKE</p>
-                    <p class="indent text transition">360</p>
-
+                <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰ Menu</button>
                 </div>
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "400px";
+                        document.getElementById("-").style.marginLeft = "400px";
+                    }
 
-                <a href="./confirm/" class="buy">
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("-").style.marginLeft = "0";
 
-                    <span class="confirm">
+                    }
+                </script>
+            </nav>
 
-                        Confirm
+        </header>
+    </div>
 
-                    </span>
 
-                </a>
+    <div class="name">
+        <a href="/index.html" class="trion">
+            <img src="img/trion-favicon-new.png" height="100" width="100">
+            <p>TRION</p>
+        </a>
+    </div>
+    <div class="options">
+
+        <p class="text optiontitle">Configure</p>
+
+        <div style="width: 100%;" class="bottomspace">
+
+            <div class="inside">
+
+                <p class="text header">Interior</p>
+
+            </div>
+
+            <p class="indent text transition">BUCKET SEATS</p>
+            <p class="indent text transition">STAR ROOF</p>
+            <p class="indent text transition">SEAT COLOR</p>
+            <p class="indent text transition">SEAT TRIM</p>
 
         </div>
-            
-        </main>
 
-    </body>
+        <div style="width: 100%;" class="bottomspace">
+
+            <div class="inside">
+
+                <p class="text header">Exterior</p>
+
+            </div>
+
+            <a href="./color-wheel/start.html">
+                <p class="indent text transition">PAINT</p>
+            </a>
+            <p class="indent text transition">RIMS</p>
+            <p class="indent text transition">BRAKE</p>
+            <p class="indent text transition">360</p>
+
+        </div>
+
+        <a href="./confirm/" class="buy">
+
+            <span class="confirm">
+
+                Confirm
+
+            </span>
+
+        </a>
+
+    </div>
+
+</main>
+</div>
+</body>
 
 </html>
-

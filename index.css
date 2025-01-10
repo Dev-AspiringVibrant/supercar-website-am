@@ -322,9 +322,13 @@ p {
     transition: 0.3s;
     font-family: 'forzamedium';
 }
+.list{
+    font-family: 'forzamedium';
+}
 
 .sidebar .list:hover {
     color: #005FB2;
+    font-family: 'forzamedium';
 }
 
 .closebtn:hover {
