@@ -476,4 +476,30 @@ section {
     margin-right: 1rem;
     margin-bottom: 1rem;
     float: right;
-}   
+}
+
+/* focus within */
+
+.openbtn:focus-within {
+    background-color: red;
+    transition-duration: 500ms;
+}
+
+a:focus-within {
+    background-color: red;
+    transition-duration: 500ms;
+}
+
+.button:focus-within {
+    background-color: red;
+    transition-duration: 500ms;
+}
+
+select:focus-within {
+    background-color: red;
+    transition-duration: 500ms;
+}
+
+input:focus-within {
+    background-color: rgba(255, 0, 0, 0.3);
+}
