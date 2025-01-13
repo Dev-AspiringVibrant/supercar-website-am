@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRION | Black Widow</title>
+    <link rel="stylesheet" href="Black-Widow.css">
+</head>
+
+<body>
+    <header>
+        <div class="cover">
+                <nav>
+                    <div id="mySidebar" class="sidebar">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                        <a class="list" href="/cars/models.html">Models</a>
+                        <a class="list" href="#">Location</a>
+                        <a class="list" href="/shop/">Shop</a>
+                        <a class="list" href="/about-us.html">About Us</a>
+                    </div>
+                    <div id="main">
+                        <button class="openbtn" onclick="openNav()">☰ Menu</button>
+                    </div>
+                    <script>
+                        function openNav() {
+                            document.getElementById("mySidebar").style.width = "400px";
+                            document.getElementById("main").style.marginLeft = "400px";
+                        }
+    
+                        function closeNav() {
+                            document.getElementById("mySidebar").style.width = "0";
+                            document.getElementById("main").style.marginLeft = "0";
+                        }
+                    </script>
+                    <div>
+                        <a href="/" class="navlink">
+                            <img src="/Trion-Supercars-Images/logo/Copy-of-trion-favicon-new.png" alt="Trion Logo"
+                                width="100" height="100">
+                            <p class="trion">Trion Supercars</p>
+                        </a>
+                    </div>
+                    </div>
+                </nav>
+            </header>
+
+
+
+
+    <footer>
+        <div class="nav-footer">
+            <h3 class="nav-footer-h3">Navigation</h3>
+            <ul>
+                <a href="/cars/models.html">
+                    <li>Models</li>
+                </a>
+                <li>Dealership</li>
+                <a href="/shop/index.html">
+                    <li>Shop</li>
+                </a>
+                <a href="about-us.html">
+                    <li>About Us</li>
+                </a>
+                <div id="google_translate_element"></div>
+            </ul>
+        </div>
+        <div class="social-footer">
+            <h3 class="nav-footer-h3">Social</h3>
+            <ul class="social-footer-ul">
+
+                <a href="https://youtube.com" target="_blank">
+                    <img class="footerimg" src="/Icons/yt.svg">
+                </a>
+                <a href="https://www.instagram.com/trionsupercarsgroup/" target="_blank">
+                    <img class="footerimg" src="/Icons/ig.svg">
+                </a>
+                <a>
+                    <img class="footerimg" src="/Icons/fb.svg">
+                </a>
+                <a href="https://x.com/trionsupercars" target="_blank">
+                    <img class="footerimg" src="/Icons/x.svg">
+                </a>
+            </ul>
+        </div>
+        <div>
+            <h3 class="nav-footer-h3">Subscribe</h3>
+            <div class="sub">
+                <div class="subbox">
+                    <input type="text" placeholder="Email Here" class="subbox">
+                </div>
+                <div class="subboxclick">Submit</div>
+            </div>
+        </div>
+    </footer>
+    </section>
+    </main>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+</body>
+
+</html>

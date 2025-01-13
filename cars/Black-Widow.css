@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('/Fonts/stylesheet.css');
+
+html {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #3c3c3c;
+}
+/* DONT EDIT ABOVE */
+
+
+.navlink {
+    text-decoration: none;
+    font-family: 'forzamedium';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trion {
+    color: white;
+    font-size: xx-large;
+    margin: 0;
+    font-family: 'forzamedium';
+    text-align: center;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    background: url(/Trion-Supercars-Images/trion-slideshow/blackwidow-slideshow.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    z-
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 1em 2em;
+}
+
+/* Footer */
+footer {
+    background: #3c3c3c;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-family: 'forzamedium';
+    color: white;
+}
+
+.footerimg {
+    height: 20px;
+    width: 20px;
+}
+
+footer div,
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.sub {
+    display: flex;
+    flex-direction: row;
+}
+
+.subbox {
+    background-color: white;
+
+    width: 220px;
+    height: 40px;
+}
+
+.subboxclick {
+    cursor: pointer;
+
+    background-color: #005FB2;
+
+    width: 60px;
+    height: 40px;
+
+    transition: 500ms;
+}
+
+.subboxclick:hover {
+    background-color: #023d71;
+}
+
+.social-footer {
+    width: 6em;
+}
+
+.social-footer-ul {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    list-style: none;
+}
+
+.social-footer-ul a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-footer-h3 {
+    font-family: 'forzamedium';
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'forzamedium';
+}
+
+.skiptranslate goog-te-gadget{
+    color: white;
+}
+
+/* SIDEBAR MENU */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(-270deg, rgba(0, 0, 0, 0.80) 1.04%, rgba(0, 0, 0, 0.80) 21.44%, rgba(52, 52, 52, 0.80) 47.67%, rgba(114, 114, 114, 0.80) 70.01%, rgba(165, 165, 165, 0.80) 98.18%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 40px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    font-family: 'forzamedium';
+}
+.list{
+    font-family: 'forzamedium';
+}
+
+.sidebar .list:hover {
+    color: #005FB2;
+    font-family: 'forzamedium';
+}
+
+.closebtn:hover {
+    color: #00294d;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.sidenav a {
+    font-size: 18px;
+}
+
+a:focus, .openbtn:focus, .closebtn:focus, .list:focus {
+    color: red;
+    outline: none;
+}
