@@ -352,10 +352,6 @@ p {
     border: none;
 }
 
-.sidenav a {
-    font-size: 18px;
-}
-
 /* Media Query */
 
 @media only screen and (max-width: 1000px) {

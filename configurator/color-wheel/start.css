@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url(/Fonts/stylesheet.css);
 html {
     margin: 0;
     
@@ -12,6 +13,7 @@ body {
 
 * {
     box-sizing: border-box;
+    font-family: "Forzamedium" !important;
 }
 
 /* Don't Edit Above */
@@ -192,4 +194,91 @@ main {
         margin-bottom: 2em;
         height: 12em;
     }
+}
+
+/* SIDEBAR MENU */
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(-270deg, rgba(0, 0, 0, 0.80) 1.04%, rgba(0, 0, 0, 0.80) 21.44%, rgba(52, 52, 52, 0.80) 47.67%, rgba(114, 114, 114, 0.80) 70.01%, rgba(165, 165, 165, 0.80) 98.18%);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 40px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+    font-family: 'forzamedium';
+}
+
+.sidebar .list:hover {
+    color: #005FB2;
+}
+
+.closebtn:hover {
+    color: #00294d;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.sidenav a {
+    font-size: 18px;
+}
+
+header {
+    width: 100%;
+    height: fit-content;
+    margin: 0em 2em;
+    position: absolute;
+    top: 0;
+    color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 1em 2em;
+}
+
+
+.navlink {
+    text-decoration: none;
+    font-family: 'forzamedium';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

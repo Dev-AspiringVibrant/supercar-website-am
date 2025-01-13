@@ -19,7 +19,36 @@
 
             <div class="menu">
 
-                <p>☰ Menu</p>
+                <header>
+
+                    <nav>
+                        <div id="mySidebar" class="sidebar">
+        
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                            <a class="list" href="/cars/models.html">Models</a>
+                            <a class="list" href="#">Location</a>
+                            <a class="list" href="/shop/">Shop</a>
+                            <a class="list" href="/about-us.html">About Us</a>
+        
+                        </div>
+                        <div id="main">
+                            <button class="openbtn" onclick="openNav()">☰ Menu</button>
+                        </div>
+                        <script>
+                            function openNav() {
+                                document.getElementById("mySidebar").style.width = "400px";
+                                document.getElementById("-").style.marginLeft = "400px";
+                            }
+        
+                            function closeNav() {
+                                document.getElementById("mySidebar").style.width = "0";
+                                document.getElementById("-").style.marginLeft = "0";
+        
+                            }
+                        </script>
+                    </nav>
+        
+                </header>
 
             </div>
 
