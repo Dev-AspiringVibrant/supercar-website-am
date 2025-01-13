@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('/Fonts/stylesheet.css');
 html {
     margin: 0;
 }
@@ -94,6 +95,7 @@ input {
 
 .method {
     font-size: 12px;
+    font-family: 'forzamedium';
 }
 
 .circle {
@@ -117,16 +119,21 @@ input {
 
     padding: 0em 3em;
     margin-top: 7em;
+    border-radius: 0.5em;
+    font-family: 'forzamedium';
+
 }
 
 /* Line Breaker */
 
 .nospace {
     margin: 0;
+    font-family: 'forzamedium';
 }
 
 .bottomspace {
     margin-bottom: 1em;
+    font-family: 'Inter';
 }
 
 .center {
@@ -136,7 +143,9 @@ input {
 }
 
 .blue {
-    color: blue;
+    color: #005FB2;
+    font-family: 'forzamedium';
+    text-decoration: underline;
 }
 
 /* Media Query */
