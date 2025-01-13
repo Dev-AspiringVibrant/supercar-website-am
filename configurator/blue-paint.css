@@ -197,7 +197,7 @@ a {
 }
 
 header {
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     margin: 0em 2em;
     position: absolute;
