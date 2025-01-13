@@ -274,3 +274,29 @@ footer div, footer ul {
     width: 60px;
     height: 40px;
 }
+
+/* focus within */
+
+.openbtn:focus-within {
+    background-color: red;
+    transition-duration: 500ms;
+}
+
+a:focus-within {
+    background-color: red;
+    transition-duration: 500ms;
+}
+
+.button:focus-within {
+    background-color: red;
+    transition-duration: 500ms;
+}
+
+select:focus-within {
+    background-color: red;
+    transition-duration: 500ms;
+}
+
+input:focus-within {
+    background-color: rgba(255, 0, 0, 0.3);
+}
