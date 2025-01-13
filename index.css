@@ -352,34 +352,6 @@ p {
     border: none;
 }
 
-.openbtn:focus-within {
-    background-color: red;
-    transition-duration: 500ms;
-}
-
-a:focus-within {
-    background-color: red;
-    transition-duration: 500ms;
-}
-
-.button:focus-within {
-    background-color: red;
-    transition-duration: 500ms;
-}
-
-select:focus-within {
-    background-color: red;
-    transition-duration: 500ms;
-}
-
-input:focus-within {
-    background-color: rgba(255, 0, 0, 0.3);
-}
-
-.sidenav a {
-    font-size: 18px;
-}
-
 /* Media Query */
 
 @media only screen and (max-width: 1000px) {
