@@ -139,6 +139,7 @@ main {
 a {
     text-decoration: none;
     color: white;
+    height: fit-content;
 }
 
 /* SIDEBAR MENU */
