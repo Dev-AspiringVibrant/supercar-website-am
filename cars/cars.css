@@ -17,6 +17,11 @@ body {
     background-color: #3C3C3C;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 /* Don't Edit Above */
 
 /* Cover */
