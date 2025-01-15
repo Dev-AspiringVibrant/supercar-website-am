@@ -13,6 +13,7 @@ body {
 
 * {
     box-sizing: border-box;
+    font-family: "Forzamedium" !important;
 }
 
 /* Don't Edit Above */
@@ -285,10 +286,4 @@ ul {
     .bottomspace {
         margin-bottom: -2em;
     }
-}
-
-/* Focus Styles */
-a:focus, .transition:focus, .confirm:focus, .openbtn:focus, .closebtn:focus, .list:focus {
-    color: red;
-    outline: none;
 }
