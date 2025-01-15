@@ -3,7 +3,7 @@
 
 - [x] Home Page
 
-  - [ ] Models
+  - [x] Models
     - [x] Nemesis
     - [x] Black Widow
 
@@ -36,7 +36,7 @@
 - [x] Choose Option
 - [x] Confimration
 
-- [ ] Interior
+- [x] Interior
 
   - Similar to exterior flow
 
