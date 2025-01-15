@@ -4,7 +4,7 @@
 
 html {
     margin: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 * {
@@ -262,7 +262,13 @@ footer ul {
     font-size: 18px;
 }
 
-a:focus, .openbtn:focus, .closebtn:focus, .list:focus {
+/* a:focus, .openbtn:focus, .closebtn:focus, .list:focus {
     color: red;
     outline: none;
+} */
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
 }

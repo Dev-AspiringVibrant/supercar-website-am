@@ -3,9 +3,9 @@
 
 - [x] Home Page
 
-  - [ ] Models
+  - [x] Models
     - [x] Nemesis
-    - [ ] Black Widow
+    - [x] Black Widow
 
   - [x] Configurator
     - [x] Model Selector
@@ -36,7 +36,7 @@
 - [x] Choose Option
 - [x] Confimration
 
-- [ ] Interior
+- [x] Interior
 
   - Similar to exterior flow
 
