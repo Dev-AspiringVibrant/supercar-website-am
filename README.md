@@ -5,7 +5,7 @@
 
   - [ ] Models
     - [x] Nemesis
-    - [ ] Black Widow
+    - [x] Black Widow
 
   - [x] Configurator
     - [x] Model Selector
